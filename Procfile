@@ -1,1 +1,2 @@
-web: gunicorn NOON-SUMBUA-MASTER.wsgi
+web: gunicorn paxful.wsgi --log-file -
+
