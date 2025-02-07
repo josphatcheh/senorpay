@@ -1,0 +1,1221 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.AccountPages_desktop_container__ka8ai {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    min-height: 850px;
+}
+.AccountDesktop_left_container__29ttM {
+    block-size: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 50%;
+}
+.AccountDesktop_left_block__ylKpe {
+    margin: 0 72px 0 16px;
+    width: 362px;
+}
+.AccountDesktop_left_header__wI6Bt {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 116px;
+    justify-content: center;
+    margin: 44px 0 16px;
+    width: 100%;
+}
+.AccountDesktop_left_header_logo__qMHip {
+    display: flex;
+    width: 362px;
+}
+.css-g4qjy3 {
+    margin: 0px;
+    font-family: "IBM Plex Sans";
+    color: rgb(64, 117, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
+.AccountDesktop_left_title_container__GkydF {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.AccountDesktop_left_title_content__wCXK5 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 362px;
+}
+.AccountDesktop_left_title_content_title__HKyYS {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.css-1oyy7qw {
+    margin: 0px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgb(34, 34, 34);
+    font-family: "IBM Plex Sans";
+}
+.CustomSelect_container__fe6w\+ {
+    align-items: center;
+    display: flex;
+    height: 28px;
+}
+.css-qsay7m {
+    letter-spacing: 0.00938em;
+    padding: 0px;
+    position: relative;
+    display: block;
+    transform-origin: left top;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, max-width 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(34, 34, 34);
+    margin: 0px 8px;
+}
+.css-17qvxof {
+    letter-spacing: 0.00938em;
+    box-sizing: border-box;
+    cursor: text;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    background: rgb(250, 253, 252);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    height: 24px;
+    color: rgb(125, 127, 126);
+    font-family: "IBM Plex Sans";
+}
+css-1880b1u.css-1880b1u.css-1880b1u {
+    padding-right: 32px;
+}
+
+.css-17qvxof .MuiSelect-select.MuiOutlinedInput-input {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.css-1880b1u.MuiSelect-select {
+    height: auto;
+    min-height: 1.4375em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.css-1880b1u {
+    appearance: none;
+    user-select: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentcolor;
+    border: 0px;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0px;
+    width: 100%;
+    animation-name: mui-auto-fill-cancel;
+    animation-duration: 10ms;
+    padding: 16.5px 14px;
+}
+.css-17qvxof {
+    letter-spacing: 0.00938em;
+    box-sizing: border-box;
+    cursor: text;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    background: rgb(250, 253, 252);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    height: 24px;
+    color: rgb(125, 127, 126);
+    font-family: "IBM Plex Sans";
+}
+.css-ffucg1 {
+    display: flex;
+    gap: 8px;
+    color: rgb(125, 127, 126);
+    -webkit-box-align: center;
+    align-items: center;
+}
+.css-1880b1u.MuiSelect-select {
+    height: auto;
+    min-height: 1.4375em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+css-1880b1u {
+    appearance: none;
+    user-select: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentcolor;
+    border: 0px;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0px;
+    width: 100%;
+    animation-name: mui-auto-fill-cancel;
+    animation-duration: 10ms;
+    padding: 16.5px 14px;
+}
+.css-17qvxof {
+    letter-spacing: 0.00938em;
+    box-sizing: border-box;
+    cursor: text;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    background: rgb(250, 253, 252);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    height: 24px;
+    color: rgb(125, 127, 126);
+    font-family: "IBM Plex Sans";
+}
+.css-ffucg1 {
+    display: flex;
+    gap: 8px;
+    color: rgb(125, 127, 126);
+    -webkit-box-align: center;
+    align-items: center;
+}
+.css-1880b1u.MuiSelect-select {
+    height: auto;
+    min-height: 1.4375em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.css-1880b1u {
+    appearance: none;
+    user-select: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentcolor;
+    border: 0px;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0px;
+    width: 100%;
+    animation-name: mui-auto-fill-cancel;
+    animation-duration: 10ms;
+    padding: 16.5px 14px;
+}
+.css-1k3x8v3 {
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+.css-17qvxof .MuiSelect-icon.MuiSelect-iconOutlined {
+    top: 0px;
+    bottom: 0px;
+}
+.css-bi4s6q {
+    position: absolute;
+    right: 7px;
+    top: calc(50% - 0.5em);
+    pointer-events: none;
+    color: rgba(0, 0, 0, 0.54);
+}
+.css-17qvxof fieldset {
+    border: none !important;
+    outline: none !important;
+}
+.css-igs3ac {
+    text-align: left;
+    position: absolute;
+    inset: -5px 0px 0px;
+    margin: 0px;
+    padding: 0px 8px;
+    pointer-events: none;
+    border-radius: inherit;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    min-width: 0%;
+    border-color: rgba(0, 0, 0, 0.23);
+}
+.css-hdw1oc {
+    float: unset;
+    overflow: hidden;
+    padding: 0px;
+    line-height: 11px;
+    transition: width 150ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+.css-hdw1oc {
+    float: unset;
+    overflow: hidden;
+    padding: 0px;
+    line-height: 11px;
+    transition: width 150ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+.css-nqg8mf {
+    margin: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(125, 127, 126);
+    font-family: "IBM Plex Sans";
+}
+.AccountDesktop_left_children_container__dKcPW {
+    margin: 36px 0;
+}
+.PixelatedLoader_container__XMGYZ {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+.css-6gcqm5 {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    inset: 0px;
+    -webkit-tap-highlight-color: transparent;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 999;
+    position: absolute;
+}
+.PixelatedLoader_loader__uMWU- {
+    height: 55px;
+    position: relative;
+    width: 55px;
+}
+.PixelatedLoader_loader_block__KFGVu:first-child {
+    -webkit-animation-delay: 65ms;
+    animation-delay: 65ms;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+}
+.PixelatedLoader_loader_block__KFGVu {
+    -webkit-animation: PixelatedLoader_show__Q89I0 .88s step-end infinite alternate,PixelatedLoader_pulse__IO-0q .88s linear infinite alternate;
+    animation: PixelatedLoader_show__Q89I0 .88s step-end infinite alternate,PixelatedLoader_pulse__IO-0q .88s linear infinite alternate;
+    background: #fff;
+    display: inline-block;
+    height: 15px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 15px;
+}
+.AccountDesktop_left_children_container__dKcPW {
+    margin: 36px 0;
+}
+.AccountForm_form_container__BQBT1 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.AccountForm_form_content__tfcAc {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+.css-1hghomm {
+    overflow: hidden;
+    display: flex;
+    min-height: 42px;
+}
+.css-1hghomm .MuiTabs-scroller {
+    height: 42px;
+}
+
+.css-18jpbi7 {
+    position: relative;
+    display: inline-block;
+    flex: 1 1 auto;
+    white-space: nowrap;
+    overflow-x: hidden;
+    width: 100%;
+}
+.css-7sga7m {
+    display: flex;
+}
+.css-18jpbi7 {
+    position: relative;
+    display: inline-block;
+    flex: 1 1 auto;
+    white-space: nowrap;
+    overflow-x: hidden;
+    width: 100%;
+}
+.css-12mz3io.Mui-selected {
+    background-color: rgb(222, 254, 242);
+    color: rgb(3, 69, 46);
+    box-shadow: rgb(222, 254, 242) -6px 0px 0px 0px, rgb(222, 254, 242) 6px 0px 0px 0px, rgb(222, 254, 242) 0px -6px 0px 0px, rgb(222, 254, 242) 0px 6px 0px 0px;
+}
+.css-12mz3io.Mui-selected {
+    background-color: rgb(222, 254, 242);
+    color: rgb(3, 69, 46);
+    font-weight: 800;
+}
+.css-12mz3io.Mui-selected {
+    color: rgb(0, 165, 239);
+}
+.css-12mz3io {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0px;
+    border: 0px;
+    border-radius: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    letter-spacing: 0.02857em;
+    max-width: 360px;
+    min-width: 90px;
+    position: relative;
+    flex-shrink: 0;
+    overflow: hidden;
+    white-space: normal;
+    text-align: center;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgb(34, 34, 34);
+    margin: 6px;
+    padding: 0px;
+    min-height: 30px;
+    font-family: "IBM Plex Sans";
+    text-transform: none;
+}
+.css-kmalbe {
+    position: absolute;
+    height: 2px;
+    bottom: 0px;
+    width: 100%;
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: rgb(0, 165, 239);
+    display: none;
+}
+.AccountForm_form_content_block__r69NE {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.AccountForm_form_input_container__5\+Cyl {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+.css-q44hkt {
+    letter-spacing: 0.00938em;
+    padding: 0px;
+    position: relative;
+    display: block;
+    transform-origin: left top;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, max-width 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(34, 34, 34);
+    margin: 0px 8px 0px 12px;
+}
+.AccountForm_email__0qYhn {
+    width: 100%;
+}
+.css-1xm0egt {
+    letter-spacing: 0.00938em;
+    box-sizing: border-box;
+    cursor: text;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "IBM Plex Sans";
+    color: rgb(34, 34, 34);
+    background: rgb(244, 255, 251);
+    border-radius: 32px;
+    height: 56px;
+    border-image-slice: 4;
+    border-image-width: 2;
+    border-image-outset: 0;
+    border-style: solid;
+    border-width: 6px;
+    border-image-source: url(/id/static/media/border-pixels.ffb5f9b….svg);
+    border-color: rgb(154, 167, 162);
+}
+.css-1xm0egt.MuiOutlinedInput-root .MuiOutlinedInput-input {
+    padding: 0px 0px 0px 16px;
+}
+
+.css-1xm0egt.MuiOutlinedInput-root .MuiOutlinedInput-input {
+    padding: 0px 0px 0px 16px;
+}
+
+.css-1pog434 {
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentcolor;
+    border: 0px;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0px;
+    width: 100%;
+    animation-name: mui-auto-fill-cancel;
+    animation-duration: 10ms;
+    padding: 16.5px 14px;
+}
+
+input[type="email" i] {
+    padding: 1px 2px;
+}
+
+
+.css-1xm0egt.MuiOutlinedInput-root fieldset {
+    border: none;
+}
+
+.css-1xm0egt.MuiOutlinedInput-root fieldset {
+    border: none;
+}
+
+.css-1xm0egt .MuiOutlinedInput-notchedOutline {
+    border-color: rgb(221, 224, 223);
+}
+
+.css-igs3ac {
+    text-align: left;
+    position: absolute;
+    inset: -5px 0px 0px;
+    margin: 0px;
+    padding: 0px 8px;
+    pointer-events: none;
+    border-radius: inherit;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    min-width: 0%;
+    border-color: rgba(0, 0, 0, 0.23);
+}
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(192, 192, 192);
+    border-image: initial;
+}
+.css-1xm0egt {
+    letter-spacing: 0.00938em;
+    box-sizing: border-box;
+    cursor: text;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "IBM Plex Sans";
+    color: rgb(34, 34, 34);
+    background: rgb(244, 255, 251);
+    border-radius: 32px;
+    height: 56px;
+    border-image-slice: 4;
+    border-image-width: 2;
+    border-image-outset: 0;
+    border-style: solid;
+    border-width: 6px;
+    border-image-source: url(/id/static/media/border-pixels.ffb5f9b….svg);
+    border-color: rgb(154, 167, 162);
+}
+.css-hdw1oc {
+    float: unset;
+    overflow: hidden;
+    padding: 0px;
+    line-height: 11px;
+    transition: width 150ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+legend {
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+.css-igs3ac {
+    text-align: left;
+    position: absolute;
+    inset: -5px 0px 0px;
+    margin: 0px;
+    padding: 0px 8px;
+    pointer-events: none;
+    border-radius: inherit;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    min-width: 0%;
+    border-color: rgba(0, 0, 0, 0.23);
+}
+.css-hdw1oc {
+    float: unset;
+    overflow: hidden;
+    padding: 0px;
+    line-height: 11px;
+    transition: width 150ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+.AccountForm_form_input_container__5\+Cyl {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+.AccountForm_form_input_password__sbHSm {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.css-q44hkt {
+    letter-spacing: 0.00938em;
+    padding: 0px;
+    position: relative;
+    display: block;
+    transform-origin: left top;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, max-width 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(34, 34, 34);
+    margin: 0px 8px 0px 12px;
+}
+.PasswordInput_container__2L5-0 {
+    width: 100%;
+}
+.css-1xm0egt {
+    letter-spacing: 0.00938em;
+    box-sizing: border-box;
+    cursor: text;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "IBM Plex Sans";
+    color: rgb(34, 34, 34);
+    background: rgb(244, 255, 251);
+    border-radius: 32px;
+    height: 56px;
+    border-image-slice: 4;
+    border-image-width: 2;
+    border-image-outset: 0;
+    border-style: solid;
+    border-width: 6px;
+    border-image-source: url(/id/static/media/border-pixels.ffb5f9b….svg);
+    border-color: rgb(154, 167, 162);
+}
+.css-1xm0egt.MuiOutlinedInput-root .MuiOutlinedInput-input {
+    padding: 0px 0px 0px 16px;
+}
+.css-1xm0egt.MuiOutlinedInput-root .MuiOutlinedInput-input {
+    padding: 0px 0px 0px 16px;
+}
+.css-1pog434 {
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentcolor;
+    border: 0px;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0px;
+    width: 100%;
+    animation-name: mui-auto-fill-cancel;
+    animation-duration: 10ms;
+    padding: 16.5px 14px;
+}
+.css-1xm0egt.MuiOutlinedInput-root fieldset {
+    border: none;
+}
+
+.css-1xm0egt.MuiOutlinedInput-root fieldset {
+    border: none;
+}
+
+.css-1xm0egt .MuiOutlinedInput-notchedOutline {
+    border-color: rgb(221, 224, 223);
+}
+
+.css-igs3ac {
+    text-align: left;
+    position: absolute;
+    inset: -5px 0px 0px;
+    margin: 0px;
+    padding: 0px 8px;
+    pointer-events: none;
+    border-radius: inherit;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    min-width: 0%;
+    border-color: rgba(0, 0, 0, 0.23);
+}
+
+
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(192, 192, 192);
+    border-image: initial;
+}
+
+.css-1xm0egt {
+    letter-spacing: 0.00938em;
+    box-sizing: border-box;
+    cursor: text;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "IBM Plex Sans";
+    color: rgb(34, 34, 34);
+    background: rgb(244, 255, 251);
+    border-radius: 32px;
+    height: 56px;
+    border-image-slice: 4;
+    border-image-width: 2;
+    border-image-outset: 0;
+    border-style: solid;
+    border-width: 6px;
+    border-image-source: url(https://noones.com/id/static/media/border-pixels.ffb5f9b73d5c4177aa3bf0a1ed5252f5.svg);
+    border-color: rgb(154, 167, 162);
+}
+.css-hdw1oc {
+    float: unset;
+    overflow: hidden;
+    padding: 0px;
+    line-height: 11px;
+    transition: width 150ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+.css-hdw1oc {
+    float: unset;
+    overflow: hidden;
+    padding: 0px;
+    line-height: 11px;
+    transition: width 150ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+.AccountForm_submit_button__SaOGp.AccountForm_submit_button_margin_top__oxI3h {
+    margin-top: 20px;
+}
+
+.css-ocor93 {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    border-color: initial;
+    border-image-repeat: initial;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    letter-spacing: 0.02857em;
+    min-width: 64px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    width: 100%;
+    font-family: "IBM Plex Sans";
+    text-transform: none;
+    padding: 7px 6px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    height: 56px;
+    color: rgb(0, 0, 0);
+    border-radius: 32px;
+    border-image-slice: 4;
+    border-image-width: 2;
+    border-image-outset: 0;
+    border-style: solid;
+    border-width: 6px;
+    border-image-source: url(https://noones.com/id/static/media/button-border-pixels.e95c64a871b61493bee189ab035e6e59.svg);
+    background-image: linear-gradient(to top, rgb(216, 179, 48) 0%, rgb(216, 179, 48) 50%, rgb(255, 237, 176) 50%, rgb(255, 237, 176) 100%);
+    background-position: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: unset !important;
+}
+.css-bfvi9j {
+    width: calc(100% - 12px);
+    height: calc(100% - 6px);
+    background-color: rgb(255, 213, 65);
+    box-shadow: rgb(255, 213, 65) -6px 0px 0px 0px, rgb(255, 213, 65) 6px 0px 0px 0px, rgb(255, 213, 65) 0px -4px 0px 0px, rgb(255, 213, 65) 0px 4px 0px 0px;
+}
+.css-w0pj6f {
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    z-index: 0;
+    inset: 0px;
+    border-radius: inherit;
+}
+.AccountForm_additionally_container__nyWN\+ {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 16px;
+    width: 100%;
+}
+.css-6gcqm5 {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    inset: 0px;
+    -webkit-tap-highlight-color: transparent;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 999;
+    position: absolute;
+}
+.PixelatedLoader_container__XMGYZ {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+.PixelatedLoader_loader__uMWU- {
+    height: 55px;
+    position: relative;
+    width: 55px;
+}
+.css-14r34si {
+    background-color: rgb(255, 255, 255);
+}
+.AccountDesktop_right_container__XysXr {
+    width: 50%;
+}
+.AccountDesktop_container_image__FGha6 {
+    background: url(https://noones.com/id/static/media/sign-in-picture.72be418aff72593f57a5.svg) no-repeat 0 0;
+    height: 100%;
+}
+.AccountForm_email__0qYhn {
+    width: 100%;
+}
+/*................................media...................................................*/
+@media (max-width: 992px){
+    #root {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .AccountDesktop_left_header_logo__qMHip {
+        display: none;
+        margin-top: -50px; /* adjust this value to suit your needs */
+       
+    }
+    .AccountPages_mobile_container__UMBDT {
+        height: 100% !important;
+        min-height: 850px;
+    }
+    .AccountDesktop_left_header__wI6Bt {
+      
+        display: none;
+        
+    }
+    .AccountPages_sign_in_mobile_header__QNZWa {
+        background: url(https://noones.com/id/static/media/sign-in-header-picture.8b77de50b800bf2861d0.svg);
+        height: 64px;
+        width: 100%;
+        margin-top: -15rem;
+        margin-bottom: 1.2rem;
+    }
+    div {
+        display: block;
+    }
+    .AccountPages_sign_in_mobile_header__QNZWa {
+        background: url(https://noones.com/id/static/media/sign-in-header-picture.8b77de50b800bf2861d0.svg);
+        height: 64px;
+        width: 100%;
+    }
+    .AccountPages_mobile_block__lTASm {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .AccountPages_title_container__JSXC4 {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 24px;
+        width: 320px;
+    }
+    .AccountPages_title__oRc-L {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        min-height: 28px;
+    }
+    .css-1oyy7qw {
+        margin: 0px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+        color: rgb(34, 34, 34);
+        font-family: "IBM Plex Sans";
+    }
+    .CustomSelect_container__fe6w\+ {
+        align-items: center;
+        display: flex;
+        height: 28px;
+    }
+    .css-qsay7m {
+        letter-spacing: 0.00938em;
+        padding: 0px;
+        position: relative;
+        display: block;
+        transform-origin: left top;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100%;
+        transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, max-width 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+        font-family: "IBM Plex Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        color: rgb(34, 34, 34);
+        margin: 0px 8px;
+    }
+    .css-17qvxof {
+        letter-spacing: 0.00938em;
+        box-sizing: border-box;
+        cursor: text;
+        display: inline-flex;
+        -webkit-box-align: center;
+        align-items: center;
+        position: relative;
+        background: rgb(250, 253, 252);
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        height: 24px;
+        color: rgb(125, 127, 126);
+        font-family: "IBM Plex Sans";
+    }
+    .css-1880b1u.css-1880b1u.css-1880b1u {
+        padding-right: 32px;
+    }
+    .css-17qvxof .MuiSelect-select.MuiOutlinedInput-input {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background-color: rgb(255, 255, 255);
+    }
+    .css-1880b1u.MuiSelect-select {
+        height: auto;
+        min-height: 1.4375em;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .css-1880b1u {
+        appearance: none;
+        user-select: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font: inherit;
+        letter-spacing: inherit;
+        color: currentcolor;
+        border: 0px;
+        box-sizing: content-box;
+        background: none;
+        height: 1.4375em;
+        margin: 0px;
+        -webkit-tap-highlight-color: transparent;
+        display: block;
+        min-width: 0px;
+        width: 100%;
+        animation-name: mui-auto-fill-cancel;
+        animation-duration: 10ms;
+        padding: 16.5px 14px;
+    }
+    .css-ffucg1 {
+        display: flex;
+        gap: 8px;
+        color: rgb(125, 127, 126);
+        -webkit-box-align: center;
+        align-items: center;
+    }
+    .css-1880b1u.MuiSelect-select {
+        height: auto;
+        min-height: 1.4375em;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .css-17qvxof .MuiSelect-icon.MuiSelect-iconOutlined {
+        top: 0px;
+        bottom: 0px;
+    }
+    .css-bi4s6q {
+        position: absolute;
+        right: 7px;
+        top: calc(50% - 0.5em);
+        pointer-events: none;
+        color: rgba(0, 0, 0, 0.54);
+    }
+    .css-17qvxof .MuiOutlinedInput-notchedOutline {
+        border-color: rgb(221, 224, 223);
+    }
+  
+    .css-17qvxof fieldset {
+        border: none !important;
+        outline: none !important;
+    }
+ 
+    .css-igs3ac {
+        text-align: left;
+        position: absolute;
+        inset: -5px 0px 0px;
+        margin: 0px;
+        padding: 0px 8px;
+        pointer-events: none;
+        border-radius: inherit;
+        border-style: solid;
+        border-width: 1px;
+        overflow: hidden;
+        min-width: 0%;
+        border-color: rgba(0, 0, 0, 0.23);
+    }
+    fieldset {
+        display: block;
+        margin-inline-start: 2px;
+        margin-inline-end: 2px;
+        padding-block-start: 0.35em;
+        padding-inline-start: 0.75em;
+        padding-inline-end: 0.75em;
+        padding-block-end: 0.625em;
+        min-inline-size: min-content;
+        border-width: 2px;
+        border-style: groove;
+        border-color: rgb(192, 192, 192);
+        border-image: initial;
+    }
+    .css-hdw1oc {
+        float: unset;
+        overflow: hidden;
+        padding: 0px;
+        line-height: 11px;
+        transition: width 150ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    }
+    .css-nqg8mf {
+        margin: 0px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgb(125, 127, 126);
+        font-family: "IBM Plex Sans";
+    }
+    .AccountPages_mobile_block__lTASm {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .AccountPages_form_container__g40w6 {
+        height: 100%;
+        padding: 0 16px;
+        width: 320px;
+    }
+    .AccountDesktop_left_container__29ttM {
+        block-size: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        width: 100% !important;
+        margin: auto;
+    }
+    .AccountForm_form_container_mobile__qtfTE {
+        padding: 24px 0;
+    }
+    .AccountForm_form_container__BQBT1 {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    .AccountForm_form_mobile__c0oWg {
+        gap: 16px;
+    }
+    .AccountForm_form_content__tfcAc {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+    }
+    .css-6gcqm5 {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        inset: 0px;
+        -webkit-tap-highlight-color: transparent;
+        background-color: rgba(255, 255, 255, 0.5);
+        z-index: 999;
+        position: absolute;
+    }
+    .PixelatedLoader_container__XMGYZ {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        width: 100%;
+    }
+    .PixelatedLoader_loader__uMWU- {
+        height: 55px;
+        position: relative;
+        width: 55px;
+    }
+    .AccountDesktop_right_container__XysXr {
+        display: none;
+      }
+      .AccountDesktop_left_block__ylKpe {
+        margin: 0 16px 0 16px;
+        width: 362px;
+    }
+}
